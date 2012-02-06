@@ -12,11 +12,9 @@
 class ConstantDefine{
     
 	
-	const SITE_NAME='HocMoiNgay';
-	const SITE_NAME_URL='HocMoiNgay.com';
-	const SUPPORT_EMAIL='support@hocmoingay.com';
-	
-	
+	const SITE_NAME='Khoi Nguyen';
+	const SITE_NAME_URL='khoinguyen.com';
+	const SUPPORT_EMAIL='support@khoinguyen.com';		
 	
 	
     /**
