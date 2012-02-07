@@ -67,14 +67,14 @@ class SignupBlock extends CWidget
 											$m = new SimpleEmailServiceMessage();
 											$m->addTo($new_user->email);
 											$m->setFrom(OsgConstantDefine::AMAZON_SES_EMAIL);
-											$m->setSubject('['.ConstantDefine::SITE_NAME.'] Confirm your email at '.ConstantDefine::SITE_NAME_URL);
+											$m->setSubject('['.SITE_NAME.'] Confirm your email at '.SITE_NAME_URL);
 											
 											$m_content='Hi '.$new_user->display_name.'<br /><br />';
-											$m_content.='Welcome to '.ConstantDefine::SITE_NAME.'! Please take a second to confirm '.$new_user->email.' as your email address by clicking this link: <br /><br />';
+											$m_content.='Welcome to '.SITE_NAME.'! Please take a second to confirm '.$new_user->email.' as your email address by clicking this link: <br /><br />';
 											$link_content=FRONT_SITE_URL.'/user-activation/?key='.$new_user->user_activation_key.'&user_id='.$new_user->user_id;
 											$m_content.='<a href="'.$link_content.'">'.$link_content.'</a><br /><br />';
 											$m_content.='Thank you for being with us!<br /><br />';
-											$m_content.=ConstantDefine::SITE_NAME.' Team';
+											$m_content.=SITE_NAME.' Team';
 											$m->setMessageFromString($m_content,$m_content);
 											$ses->sendEmail($m);
 											                                                                            

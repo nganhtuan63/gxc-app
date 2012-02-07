@@ -19,7 +19,6 @@ define('FRONT_END',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'frontend'.DIR
 define('FRONT_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'frontend');
 define('IS_FRONTEND',true);
 
-
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
@@ -28,8 +27,8 @@ $config=BACK_END.'/config/main.php';
 require_once($yii);
 require_once($globals);
 
-//Set TimeZone for the Application
-Yii::createWebApplication($config)->run();
+
+
 
 
 

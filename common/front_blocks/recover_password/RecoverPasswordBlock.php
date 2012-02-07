@@ -66,16 +66,16 @@ class RecoverPasswordBlock extends CWidget
 													$m = new SimpleEmailServiceMessage();
 													$m->addTo($user->email);
 													$m->setFrom(OsgConstantDefine::AMAZON_SES_EMAIL);
-													$m->setSubject('['.ConstantDefine::SITE_NAME.'] Password reset instructions');
+													$m->setSubject('['.SITE_NAME.'] Password reset instructions');
 													
 													$m_content='Hi '.$user->display_name.'<br /><br />';
-													$m_content.='A request to reset your '.ConstantDefine::SITE_NAME.' password has been made. If you did not make this request, simply ignore this email. If you did make this request, just click the link below:<br /><br />';
+													$m_content.='A request to reset your '.SITE_NAME.' password has been made. If you did not make this request, simply ignore this email. If you did make this request, just click the link below:<br /><br />';
 													$link_content=FRONT_SITE_URL.'/reset-password/?key='.$user->email_recover_key.'&user_id='.$user->user_id;
 													$m_content.='<a href="'.$link_content.'">'.$link_content.'</a><br /><br />';
 													$m_content.='If the URL above does not work, try copying and pasting it into your browser.<br /><br />';
 													$m_content.='If you continue to have problems, please feel free to contact us: <a href="mailto:'.ConstantDefine::SUPPORT_EMAIL.'">'.ConstantDefine::SUPPORT_EMAIL.'</a><br /><br />';
 													$m_content.='Thank you for being with us!<br /><br />';
-													$m_content.=ConstantDefine::SITE_NAME.' Team';
+													$m_content.=SITE_NAME.' Team';
 													$m->setMessageFromString($m_content,$m_content);
 													$ses->sendEmail($m);											
 												 user()->setFlash('success','Instructions to reset your password have been sent to you. Please check your email.');

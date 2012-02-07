@@ -6,10 +6,23 @@ Yii::setPathOfAlias('cms',CMS_FOLDER);
 Yii::setPathOfAlias('frontend',FRONT_END);
 Yii::setPathOfAlias('cmswidgets',CMS_WIDGETS);
 
+//You need to re edit for your site information here
+define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
+define('IMAGES_URL','http://images.gxcsolutions.com');  
+define('AVATAR_URL','http://avatar.gxcsolutions.com');  
+define('SITE_NAME','GXC-CMS Demo Website');
+define('SITE_NAME_URL','GXC-CMS Demo Website');
+define('SUPPORT_EMAIL','support@gxcsolutions.com');
+define('FRONT_SITE_URL','http://demo-frontend.gxcsolutions.com');
+define('BACKEND_SITE_URL','http://demo-backend.gxcsolutions.com');
+
 return array(
 	
+	//Edit more information for your site here
 	'name'=>'GXC-CMS Demo Website',        
     'sourceLanguage'=>'en_us',
+    
+	
 	// preloading 'log' component
 	'preload'=>array('log','translate'),
 
@@ -51,6 +64,19 @@ return array(
         'cms.modules.rights.RightsModule',                            
 	),
 	'modules'=>array(
+
+
+		//Edit your Database Connection here	
+		//Use MySQL database		
+		'db'=>array(
+                'connectionString' => 'mysql:host=localhost;dbname=hmn',
+                'emulatePrepare' => true,
+                'username' => 'root',
+                'password' => 'root',
+                'charset' => 'utf8',
+                'tablePrefix' => 'gxc_'
+            ),
+               
 		// uncomment the following to enable the Gii tool
 		/*
 		'gii'=>array(
@@ -116,16 +142,7 @@ return array(
 				),
 			),
             
-		//Use MySQL database		
-		'db'=>array(
-                'connectionString' => 'mysql:host=localhost;dbname=hmn',
-                'emulatePrepare' => true,
-                'username' => 'root',
-                'password' => 'root',
-                'charset' => 'utf8',
-                'tablePrefix' => 'gxc_'
-            ),
-                
+		 
         //Use Session Handle in Database
         'session' => array(
                 'class' => 'CDbHttpSession',

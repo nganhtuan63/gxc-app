@@ -18,11 +18,6 @@ define('FRONT_STORE',dirname(dirname(__FILE__)));
 define('BACK_END',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend'.DIRECTORY_SEPARATOR.'protected');
 define('BACK_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend');
 define('IS_FRONTEND',true);
-define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
-define('IMAGES_URL','http://images.hocmoingay.com');  
-define('AVATAR_URL','http://avatar.hocmoingay.com');  
-define('FRONT_SITE_URL','http://beta.hocmoingay.com');
-define('BACKEND_SITE_URL','http://backend.hocmoingay.com');
 
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
