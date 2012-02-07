@@ -58,8 +58,8 @@ class ResetPasswordBlock extends CWidget
 												 if($model->validate())
 												 {
 												 		$user->email_recover_key='';
-														$user->salt=ConstantDefine::USER_SALT;
-														$user->password=User::model()->hashPassword($model->password,ConstantDefine::USER_SALT);
+														$user->salt=USER_SALT;
+														$user->password=User::model()->hashPassword($model->password,USER_SALT);
 														if($user->save()){																																					
 															 user()->setFlash('success','Your password has been reset.');
 															 Yii::app()->controller->redirect(bu().'/sign-in');

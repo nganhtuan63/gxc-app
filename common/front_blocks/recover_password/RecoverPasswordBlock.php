@@ -57,7 +57,7 @@ class RecoverPasswordBlock extends CWidget
 							 		$user=User::model()->find('email=:email',array(':email'=>$model->email));
 									if($user){
 											//Create a new password recover key
-											$key=md5(ConstantDefine::USER_RECOVER_PASS_SALT.time().$user->username.$user->email);
+											$key=md5(USER_RECOVER_PASS_SALT.time().$user->username.$user->email);
 											$user->email_recover_key=$key;
 											if($user->save()){
 												

@@ -8,7 +8,11 @@
 // Set the constant for the FRONT_STORE Directory
 // Don't change if you are not sure
 $cms_version='1.0';
-define('CORE_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'core');
+
+//You need to specify the path to CORE FOLDER CORRECTLY
+define('CORE_FOLDER',dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.'core');
+
+
 define('COMMON_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'common');
 define('IMAGES_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'images');
 define('AVATAR_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'avatar');

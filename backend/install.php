@@ -8,7 +8,11 @@
 // Set the constant for the FRONT_STORE Directory
 // Don't change if you are not sure
 $cms_version='1.0';
-define('CORE_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'core');
+
+//You need to specify the path to CORE FOLDER CORRECTLY
+define('CORE_FOLDER',dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.'core');
+
+
 define('COMMON_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'common');
 define('IMAGES_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'images');
 define('AVATAR_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'avatar');
@@ -28,6 +32,7 @@ $config=FRONT_END.'/config/main.php';
 require_once($yii);
 require_once($globals);
 
+Yii::createWebApplication($config);
 
 //Start working with Yii Database Components
 $connection=Yii::app()->db;   // assuming you have configured a "db" connection
@@ -36,7 +41,8 @@ $connection=Yii::app()->db;   // assuming you have configured a "db" connection
 
 // Get SQL Script
 
-$sql = file_get_contents(COMMON_FOLDER.DIRECTORY_SEPARATOR.'data.sql', true);
+$sql = file_get_contents(COMMON_FOLDER.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'data.sql', true);
+
 
 if($sql){
 	//Replace some default attributes
@@ -44,18 +50,26 @@ if($sql){
 	$sql=str_replace("{{SITE_NAME}}", SITE_NAME, $sql);
 	$sql=str_replace("{{SUPPORT_EMAIL}}", SUPPORT_EMAIL, $sql);	
 	$sql=str_replace("{{time}}", time(), $sql);
-	$sql=str_replace("{{password_salt}}", ConstantDefine::USER_SALT, $sql);
+	$sql=str_replace("{{password_salt}}", USER_SALT, $sql);
 	
 	//Generate password 123456
-	$password=User::model()->hashPassword('123456',ConstantDefine::USER_SALT);
+	$password=hashPassword('123456',USER_SALT);
 	$sql=str_replace("{{password}}", $password, $sql);
+	
+	
+$command=$connection->createCommand($sql);
+
+if($command->execute()!==false){
+	echo "Install successfully";
+} else {
+	echo "Error while installing! Please check config file and try again";
+}
+	
 			
 } else {
 	echo "Can't file data.sql file in COMMON FOLDER";
 	Yii::app()->end();
 }
-
-$command=$connection->createCommand($sql);
 
 
 

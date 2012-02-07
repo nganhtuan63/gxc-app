@@ -58,7 +58,7 @@ class SignupBlock extends CWidget
                                 $old_password=$new_user->password=$model->password;           
                                 
                                 //Create hash activation key
-                                $new_user->user_activation_key=md5(time().$new_user->username.ConstantDefine::USER_SALT);
+                                $new_user->user_activation_key=md5(time().$new_user->username.USER_SALT);
                                 if($new_user->save()){                                         
                                         	//We will send mail for the user
                                         	

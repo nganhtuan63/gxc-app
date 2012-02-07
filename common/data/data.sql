@@ -126,7 +126,7 @@ CREATE TABLE `gxc_block` (
   `updated` int(11) NOT NULL,
   `params` text NOT NULL,
   PRIMARY KEY (`block_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=49 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_block`
@@ -145,7 +145,7 @@ CREATE TABLE `gxc_content_list` (
   `value` text NOT NULL,
   `created` int(11) NOT NULL,
   PRIMARY KEY (`content_list_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=43 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_content_list`
@@ -265,7 +265,7 @@ CREATE TABLE `gxc_object` (
   KEY `type_status_date` (`object_type`,`object_status`,`object_date`,`object_id`),
   KEY `object_parent` (`object_parent`),
   KEY `object_author` (`object_author`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=37 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_object`
@@ -286,7 +286,7 @@ CREATE TABLE `gxc_object_meta` (
   PRIMARY KEY (`meta_id`),
   KEY `object_id` (`meta_object_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_object_meta`
@@ -353,7 +353,7 @@ CREATE TABLE `gxc_page` (
   `allow_follow` tinyint(1) NOT NULL DEFAULT '1',
   `display_type` varchar(50) NOT NULL DEFAULT 'main',
   PRIMARY KEY (`page_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_page`
@@ -475,7 +475,7 @@ CREATE TABLE `gxc_tag` (
   PRIMARY KEY (`id`),
   KEY `name` (`name`),
   KEY `slug` (`slug`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_tag`
@@ -567,7 +567,7 @@ CREATE TABLE `gxc_transfer` (
 -- Dumping data for table `gxc_transfer`
 --
 
-INSERT INTO `gxc_transfer` VALUES(13, 18, 1, 0, 2, 1, 3, NULL, 1314807316);
+
 
 -- --------------------------------------------------------
 

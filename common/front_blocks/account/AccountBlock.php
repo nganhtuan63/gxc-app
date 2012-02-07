@@ -70,8 +70,8 @@ class AccountBlock extends CWidget
 				                    
 				                    // validate user input password
 				                    if($model->validate()){				                       
-		                                    $u->password=$u->hashPassword($model->new_password_1,  ConstantDefine::USER_SALT);
-		                                    $u->salt=ConstantDefine::USER_SALT;
+		                                    $u->password=$u->hashPassword($model->new_password_1,  USER_SALT);
+		                                    $u->salt=USER_SALT;
 		                                    if($u->save()){               
 		                                        user()->setFlash('success',t('Change Password Successfully!'));                                        
 		                                    }				                            

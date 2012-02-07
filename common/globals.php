@@ -365,9 +365,12 @@ function fn_strip_slashes_deep($data) {
     return $data;
 }
 
+function hashPassword($password,$salt)
+{
+       return md5($password.$salt);
+}
+
 function get_youtube_id($url,$need_curl=true) {
-    	
-   
    $url_modified=strtolower(str_replace('www.', '', $url));
    if(strpos($url_modified,'http://youtube.com')!==false) {
    		parse_str(parse_url($url,PHP_URL_QUERY));

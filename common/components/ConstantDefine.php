@@ -20,9 +20,7 @@ class ConstantDefine{
     const USER_STATUS_DISABLED=0;
     const USER_STATUS_ACTIVE=1;
     
-	//You can Edit the USER_SALT Here too
-    const USER_SALT='hefd3213cxzczjdasdase321';
-	const USER_RECOVER_PASS_SALT='dsa23cvm034ax403449';
+    
     
     public static function getUserStatus(){
         return array(
