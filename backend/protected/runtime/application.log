@@ -6151,3 +6151,15 @@ Stack trace:
 #1 /Applications/MAMP/htdocs/hmn/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /Applications/MAMP/htdocs/hmn/backend/index-test.php(36): CApplication->run()
 #3 {main} REQUEST_URI=/hmn/backend/assets/af64e0d4/richtext.png
+2012/02/07 22:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/install".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/install')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/khoinguyen/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/khoinguyen/backend/site/install
+2012/02/07 22:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/khoinguyen/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/khoinguyen/backend/css/osg.css

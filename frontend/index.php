@@ -10,29 +10,33 @@
 $cms_version='1.0';
 
 //You need to specify the path to CORE FOLDER CORRECTLY
-define('CORE_FOLDER',dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.'core');
+define('CORE_FOLDER',dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.'gxc'.DIRECTORY_SEPARATOR.'core');
 
 
 define('COMMON_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'common');
 define('IMAGES_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'images');
 define('AVATAR_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'avatar');
-define('CMS_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'core'.DIRECTORY_SEPARATOR.'cms'.$cms_version);
+define('CMS_FOLDER',CORE_FOLDER.DIRECTORY_SEPARATOR.'cms'.$cms_version);
 define('CMS_WIDGETS',CMS_FOLDER.DIRECTORY_SEPARATOR.'widgets');
 define('FRONT_END',dirname(__FILE__).DIRECTORY_SEPARATOR.'protected');
 define('FRONT_STORE',dirname(dirname(__FILE__)));
 define('BACK_END',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend'.DIRECTORY_SEPARATOR.'protected');
 define('BACK_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend');
-define('IS_FRONTEND',true);
+
+
 
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
+$define=COMMON_FOLDER.'/define.php';
 $config=FRONT_END.'/config/main.php';
+
 
 require_once($yii);
 require_once($globals);
+require_once($define);
 
-//Set TimeZone for the Application
+
 Yii::createWebApplication($config)->run();
 
 
