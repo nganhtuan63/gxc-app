@@ -23,41 +23,13 @@ define('IS_FRONTEND',true);
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
-$config=FRONT_END.'/config/main.php';
+$config=FRONT_END.'/config/test.php';
 
 require_once($yii);
 require_once($globals);
 
-
-//Start working with Yii Database Components
-$connection=Yii::app()->db;   // assuming you have configured a "db" connection
-// If not, you may explicitly create a connection:
-// $connection=new CDbConnection($dsn,$username,$password);
-
-// Get SQL Script
-
-$sql = file_get_contents(COMMON_FOLDER.DIRECTORY_SEPARATOR.'data.sql', true);
-
-if($sql){
-	//Replace some default attributes
-	
-	$sql=str_replace("{{SITE_NAME}}", SITE_NAME, $sql);
-	$sql=str_replace("{{SUPPORT_EMAIL}}", SUPPORT_EMAIL, $sql);	
-	$sql=str_replace("{{time}}", time(), $sql);
-	$sql=str_replace("{{password_salt}}", ConstantDefine::USER_SALT, $sql);
-	
-	//Generate password 123456
-	$password=User::model()->hashPassword('123456',ConstantDefine::USER_SALT);
-	$sql=str_replace("{{password}}", $password, $sql);
-			
-} else {
-	echo "Can't file data.sql file in COMMON FOLDER";
-	Yii::app()->end();
-}
-
-$command=$connection->createCommand($sql);
-
-
+//Set TimeZone for the Application
+Yii::createWebApplication($config)->run();
 
 
 

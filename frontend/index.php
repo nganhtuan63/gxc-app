@@ -6,6 +6,7 @@
 //defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 // Set the constant for the FRONT_STORE Directory
+// Don't change if you are not sure
 $cms_version='1.0';
 define('CORE_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'core');
 define('COMMON_FOLDER',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'common');

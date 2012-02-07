@@ -8,13 +8,13 @@ Yii::setPathOfAlias('cmswidgets',CMS_WIDGETS);
 
 //You need to re edit for your site information here
 define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
-define('IMAGES_URL','http://images.gxcsolutions.com');  
-define('AVATAR_URL','http://avatar.gxcsolutions.com');  
-define('SITE_NAME','GXC-CMS Demo Website');
-define('SITE_NAME_URL','demo-frontend.gxcsolutions.com');
-define('SUPPORT_EMAIL','support@gxcsolutions.com');
-define('FRONT_SITE_URL','http://demo-frontend.gxcsolutions.com');
-define('BACKEND_SITE_URL','http://demo-backend.gxcsolutions.com');
+define('IMAGES_URL','http://http://localhost/sample/images');  
+define('AVATAR_URL','http://http://localhost/avatar');  
+define('SITE_NAME','GXC-CMS Demo TEST ZONE');
+define('SITE_NAME_URL','http://localhost/sample/frontend');
+define('SUPPORT_EMAIL','support@localhost');
+define('FRONT_SITE_URL','http://localhost/sample/frontend');
+define('BACKEND_SITE_URL','http://localhost/sample/backend');
 
 return array(
 	
@@ -137,10 +137,9 @@ return array(
 				'urlFormat'=>'path',
                 'showScriptName' =>false,
 				'rules'=>array(       					                        
-					'<slug>'=>'site/index',
-                  	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+					'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+					'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+					'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 				),
 			),
             
