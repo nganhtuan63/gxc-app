@@ -29,7 +29,7 @@ class AccountBlock extends CWidget
             if(!user()->isGuest){ 
                     $this->renderContent();
               } else {
-                 user()->setFlash('error',t('Bạn cần đăng nhập để sử dụng chức năng này!'));                                                         
+                 user()->setFlash('error',t('You need login to continue!'));                                                         
                 Yii::app()->controller->redirect(bu().'/sign-in');
             }
     }       

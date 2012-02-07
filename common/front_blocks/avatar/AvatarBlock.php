@@ -74,8 +74,8 @@ class AvatarBlock extends CWidget
                                          $old_avatar_path=$current_user->avatar;
                                          $current_user->avatar=$path;
                                          if(file_exists(AVATAR_FOLDER.DIRECTORY_SEPARATOR.'root'.DIRECTORY_SEPARATOR.$old_avatar_path)){
-						 @unlink(AVATAR_FOLDER.DIRECTORY_SEPARATOR.'root'.DIRECTORY_SEPARATOR.$old_avatar_path);
-					 }
+											 @unlink(AVATAR_FOLDER.DIRECTORY_SEPARATOR.'root'.DIRECTORY_SEPARATOR.$old_avatar_path);
+										 }
                                          
                                          //Delete old file Sizes
                                           $sizes=AvatarSize::getSizes();
