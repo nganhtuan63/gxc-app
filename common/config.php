@@ -66,17 +66,7 @@ return array(
 	'modules'=>array(
 
 
-		//Edit your Database Connection here	
-		//Use MySQL database		
-		'db'=>array(
-                'connectionString' => 'mysql:host=localhost;dbname=hmn',
-                'emulatePrepare' => true,
-                'username' => 'root',
-                'password' => 'root',
-                'charset' => 'utf8',
-                'tablePrefix' => 'gxc_'
-            ),
-               
+		
 		// uncomment the following to enable the Gii tool
 		/*
 		'gii'=>array(
@@ -103,7 +93,18 @@ return array(
 
 	// application components
 	'components'=>array(
-	                   
+	                 
+			//Edit your Database Connection here	
+			//Use MySQL database		
+			'db'=>array(
+	                'connectionString' => 'mysql:host=localhost;dbname=hmn',
+	                'emulatePrepare' => true,
+	                'username' => 'root',
+	                'password' => 'root',
+	                'charset' => 'utf8',
+	                'tablePrefix' => 'gxc_'
+	            ),
+                 
 	        //User Componenets
 			'user'=>array(
 	            'class'=>'cms.components.user.GxcUser',

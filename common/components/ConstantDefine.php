@@ -10,12 +10,7 @@
  */
 
 class ConstantDefine{
-    
-	
-	const SITE_NAME='Khoi Nguyen';
-	const SITE_NAME_URL='khoinguyen.com';
-	const SUPPORT_EMAIL='support@khoinguyen.com';		
-	
+    	
 	
     /**
      * Constant related to User
@@ -25,6 +20,7 @@ class ConstantDefine{
     const USER_STATUS_DISABLED=0;
     const USER_STATUS_ACTIVE=1;
     
+	//You can Edit the USER_SALT Here too
     const USER_SALT='hefd3213cxzczjdasdase321';
 	const USER_RECOVER_PASS_SALT='dsa23cvm034ax403449';
     

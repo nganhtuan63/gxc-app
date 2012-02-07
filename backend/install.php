@@ -28,6 +28,12 @@ require_once($yii);
 require_once($globals);
 
 
+//Start working with Yii Database Components
+$connection=Yii::app()->db;   // assuming you have configured a "db" connection
+// If not, you may explicitly create a connection:
+// $connection=new CDbConnection($dsn,$username,$password);
+$command=$connection->createCommand($sql);
+
 
 
 
