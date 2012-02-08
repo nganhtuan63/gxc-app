@@ -89,6 +89,7 @@ return array(
 			//Use MySQL database		
 			'db'=>array(
 	                'connectionString' => 'mysql:host=localhost;dbname=gxc_cms',
+	                'schemaCachingDuration' => 3600,
 	                'emulatePrepare' => true,
 	                'username' => 'root',
 	                'password' => 'root',
