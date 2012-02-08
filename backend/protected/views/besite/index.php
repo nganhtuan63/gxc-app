@@ -37,6 +37,6 @@ echo $this->backend_asset.'/images/upload_file.png'; ?>"><br />
 <div style="clear:both"></div>
 </div>
 
-<p><?php echo t('This CMS is an Open Source CMS, powered by ');?><a href="http://www.gxcsolutions.com">GXC Solutions</a>.</p>
+<p><?php echo t('This is an Open Source CMS, powered by ');?><a href="http://www.gxcsolutions.com">GXC Solutions</a>.</p>
 <p><?php echo t('Having problems? Contact us at: ')?> <a href="mailto:cms-support@gxcsolutions.com">cms-support@gxcsolutions.com</a>,
-<?php echo t('or Join us at');?><a href="https://github.com/nganhtuan63/GXC-CMS">Github</a></p>
+<?php echo t('or Join us at ');?><a href="https://github.com/nganhtuan63/GXC-CMS">Github</a></p>
