@@ -68,38 +68,8 @@
 			'activeCssClass'=>'list_active',
 			'items'=>array(
 					array('label'=>'<span id="menu_dashboard" class="micon"></span>'.t('Dashboard'), 'url'=>array('/besite/index') ,'linkOptions'=>array('class'=>'menu_0'),
-                                                'active'=> ((Yii::app()->controller->id=='besite') && (in_array(Yii::app()->controller->action->id,array('index')))) ? true : false
-					    ),
-                                        array('label'=>'<span id="menu_brand" class="micon"></span>'.t('Brand'),  'url'=>'javascript:void(0);','linkOptions'=>array('class'=>'menu_8' ), 'itemOptions'=>array('id'=>'menu_8'), 
-					       'items'=>array(
-						array('label'=>t('Create Brand'), 'url'=>array('/obbrand/create')),						
-						array('label'=>t('Manage Brands'), 'url'=>array('/obbrand/admin'),
-						      'visible'=>user()->isAdmin ? true : false,
-						      'active'=> ((Yii::app()->controller->id=='obbrand') && (in_array(Yii::app()->controller->action->id,array('update','view','admin')))) ? true : false),
-                                                array('label'=>t('Manage Object Sales'), 'url'=>array('/obbrand/managesale')),
-					    )),
-                                        array('label'=>'<span id="menu_bot" class="micon"></span>'.t('Bot'),  'url'=>'javascript:void(0);','linkOptions'=>array('class'=>'menu_9' ), 'itemOptions'=>array('id'=>'menu_9'), 
-					       'items'=>array(
-						array('label'=>t('Crawl Bots'), 'url'=>array('/obbot/crawl')),						
-                        array('label'=>t('Crawl Image'), 'url'=>array('/obbot/crawlimage')),                        
-                        array('label'=>t('Resize Image'), 'url'=>array('/obbot/resizeimage')),                        
-                                                array('label'=>t('Parse Bots'), 'url'=>array('/obbot/parse')),						
-						
-					    )),
-                                        array('label'=>'<span id="menu_fetch" class="micon"></span>'.t('Fetch'),  'url'=>'javascript:void(0);','linkOptions'=>array('class'=>'menu_10' ), 'itemOptions'=>array('id'=>'menu_10'), 
-					       'items'=>array(
-						array('label'=>t('Test Product Fetch'), 'url'=>array('/obfetch/test')),						                                             
-                                               
-					    )),
-                                        array('label'=>'<span id="menu_color" class="micon"></span>'.t('Color'),  'url'=>'javascript:void(0);','linkOptions'=>array('class'=>'menu_11' ), 'itemOptions'=>array('id'=>'menu_11'), 
-					       'items'=>array(
-                                                array('label'=>t('Fetch Color'), 'url'=>array('/obcolor/fetch')),						
-						array('label'=>t('Create Color'), 'url'=>array('/obcolor/create')),						
-                        array('label'=>t('Manage Object Colors'), 'url'=>array('/obcolor/index')),
-						array('label'=>t('Manage Colors'), 'url'=>array('/obcolor/admin'),                               
-						      'visible'=>user()->isAdmin ? true : false,
-						      'active'=> ((Yii::app()->controller->id=='obcolor') && (in_array(Yii::app()->controller->action->id,array('update','view','admin')))) ? true : false)
-					    )),
+                                   'active'=> ((Yii::app()->controller->id=='besite') && (in_array(Yii::app()->controller->action->id,array('index')))) ? true : false
+					    ),                               
 					array('label'=>'<span id="menu_content" class="micon"></span>'.t('Content'),  'url'=>'javascript:void(0);','linkOptions'=>array('class'=>'menu_1' ), 'itemOptions'=>array('id'=>'menu_1'), 
 					       'items'=>array(
 						array('label'=>t('Create Content'), 'url'=>array('/beobject/create')),
@@ -168,14 +138,14 @@
 					    ),
                                                 'visible'=>user()->isAdmin ? true : false,   
 					    ),
-                                        array('label'=>'<span id="menu_setting" class="micon"></span>'.t('Settings'), 'url'=>'javascript:void(0);','linkOptions'=>array('id'=>'menu_7','class'=>'menu_7'), 'itemOptions'=>array('id'=>'menu_7'), 
-                                                           'items'=>array(
-                                                               array('label'=>t('General'), 'url'=>array('/besettings/general')),
-                                                               array('label'=>t('System'), 'url'=>array('/besettings/system')),
-                                                         
-                                                        ),
-                                                            'visible'=>user()->isAdmin ? true : false,   
-                                                        )
+                        array('label'=>'<span id="menu_setting" class="micon"></span>'.t('Settings'), 'url'=>'javascript:void(0);','linkOptions'=>array('id'=>'menu_7','class'=>'menu_7'), 'itemOptions'=>array('id'=>'menu_7'), 
+                                           'items'=>array(
+                                               array('label'=>t('General'), 'url'=>array('/besettings/general')),
+                                               array('label'=>t('System'), 'url'=>array('/besettings/system')),
+                                         
+                                        ),
+                                            'visible'=>user()->isAdmin ? true : false,   
+                                        )
 					
 				),
 			)); ?>

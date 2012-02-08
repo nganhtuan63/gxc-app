@@ -122,19 +122,7 @@ return array(
                 'cacheId'   => 'global_website_settings',
                 'cacheTime' => 84000,
             ),
-                
-			// URL Format and Rewrite			
-			'urlManager'=>array(
-				'urlFormat'=>'path',
-                'showScriptName' =>false,
-				'rules'=>array(       					                        
-					'<slug>'=>'site/index',
-                  	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-				),
-			),
-            
+                			
 		 
 		/* 
         //Use Session Handle in Database
@@ -163,10 +151,12 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				
+				/*
 				array(
 					'class'=>'CWebLogRoute',
 				),
+				 * 
+				 */
 				
 			),
 		),

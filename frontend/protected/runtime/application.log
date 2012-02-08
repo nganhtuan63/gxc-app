@@ -3790,3 +3790,20 @@ REQUEST_URI=/hmn/frontend/upload-image
 in /Applications/MAMP/htdocs/hmn/common/front_blocks/upload_image/UploadImageBlock.php (108)
 in /Applications/MAMP/htdocs/hmn/common/front_blocks/upload_image/UploadImageBlock.php (54)
 in /Applications/MAMP/htdocs/hmn/common/front_blocks/upload_image/UploadImageBlock.php (30)
+2012/02/08 13:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('home')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index.php(40): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/

@@ -2,10 +2,10 @@
 
 return CMap::mergeArray(
 	 require(COMMON_FOLDER.'/config.php'),
-	array(
+	 array(
                 'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
                 'name' => 'BACKEND ZONE',
-                
+                'defaultController'=>'besite',                               
 				'components'=>array(                                                
                         
                         //Error Action when having Errors
@@ -28,7 +28,7 @@ return CMap::mergeArray(
 							'urlFormat'=>'path',
 			                'showScriptName' =>false,
 							'rules'=>array(       					                        							
-			                  	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+			                  	'<controller:\w+>/<id:\d+>'=>'<controller>/index',
 			                    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 			                    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 							),

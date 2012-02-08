@@ -1,1 +1,6 @@
-backend/protected/runtime/application.log
+*.DS_Store
+*.project
+backend/assets/*
+backend/protected/runtime/*
+frontend/assets/*
+frontend/protected/runtime/*

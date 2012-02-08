@@ -8,5 +8,5 @@ RedirectMatch 404 /\\..*(/.*|$)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# otherwise forward it to index.php
+# otherwise forward it to index-test.php
 RewriteRule ^.*$ index-test.php [L]

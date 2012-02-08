@@ -27,6 +27,7 @@ define('BACK_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend');
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
 $define=COMMON_FOLDER.'/define-test.php';
+
 $config=FRONT_END.'/config/main.php';
 
 
