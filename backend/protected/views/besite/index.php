@@ -5,7 +5,7 @@
 <ul class="shortcut-buttons-set">
 <?php foreach($types as $type) : ?>
 <li>
-<a href="<?php echo bu().'/beoject/create/type/'.$type['id']; ?>" class="shortcut-button">
+<a href="<?php echo bu().'/beobject/create/type/'.$type['id']; ?>" class="shortcut-button">
 <span>
 <img alt="icon" src="<?php 
 $icon_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.content_type.'.$type['id'].'.assets'), false, -1, false);                    
