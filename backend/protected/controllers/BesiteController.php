@@ -75,7 +75,7 @@ class BesiteController extends BeController
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
+		$this->redirect(bu().'/besite/login');
 	}
 	
 	

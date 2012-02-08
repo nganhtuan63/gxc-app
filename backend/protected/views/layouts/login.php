@@ -17,7 +17,10 @@
 </head>
 <body>
 <div class="container" id="page">
-	<div id="header-login">		
+	<div id="header-login" style="margin:0 auto; text-align: center" >		
+		<div style="padding-top:60px">
+		<img src="<?php echo $backend_asset; ?>/images/logo.png" />
+		</div>
 	</div>
 	<div id="site-content" style="margin:0 auto; width:400px; border-top:0px">
             	<?php echo $content; ?>		

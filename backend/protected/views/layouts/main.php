@@ -52,11 +52,14 @@
 			
 	</div>
 	<div id="header">
-		
-		<form id="search-box" method="get" action="#" target="_blank">
+		<div style="float:left; padding-left:45px">
+		<a href="<?php echo bu().'/besite'; ?>"><img src="<?php echo $backend_asset ;?>/images/logo_small.png"; /></a>
+		</div>
+		<form id="search-box" method="get" action="#" target="_blank" style="float:left;">
 			<input class="topSearchBox" id="topSearchBox" autocomplete="off" type="text" maxlength="2048" name="q" label="Search" placeholder="" aria-haspopup="true" />
 			<input type="submit" value="Go" id="searchbutton" class="bebutton" />
 		</form>
+		<div class="clear"></div>
 	</div>
 	<div id="site-content">
 		<div id="left-sidebar">
