@@ -1,13 +1,10 @@
-<?php $this->pageTitle=Yii::app()->name; ?>
-<p>Congratulations! You have successfully created your Yii application.</p>
+<?php $this->pageTitle=SITE_NAME; ?>
+<p style="text-transform: uppercase;"><?php echo t('Quick actions: '); ?></p>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <tt><?php echo __FILE__; ?></tt></li>
-	<li>Layout file: <tt><?php echo $this->getLayoutFile('main'); ?></tt></li>
-</ul>
+<p>
+	
+</p>
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<p><?php echo t('This CMS is powered by ');?><a href="http://www.gxcsolutions.com">GXC Solutions</a>.
+<?php echo t('Having problems? Contact us at: ')?> <a href="mailto:cms-support@gxcsolutions.com">cms-support@gxcsolutions.com</a>,
+<?php echo t('or Join us at');?><a href="https://github.com/nganhtuan63/GXC-CMS">Github</a>,</p>

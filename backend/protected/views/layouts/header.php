@@ -7,12 +7,12 @@
         $cs->registerCoreScript('jquery');
         $cs->registerCoreScript('jquery.ui');
         $cs->registerCssFile($cssCoreUrl . '/jui/css/base/jquery-ui.css');
-        
-        $cs->registerCssFile(bu().'/css/osg.css');
+                
 
         //Publish Files from backend assets folders
 
         $urlScript =  $backend_asset.'/js/backend.js';
+
         $cs->registerScriptFile($urlScript, CClientScript::POS_HEAD);
    
 
