@@ -13,6 +13,28 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Database: `gxc_cms`
 --
 
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gxc_session`
+--
+
+CREATE TABLE `gxc_session` (
+  `id` char(32) NOT NULL,
+  `expire` int(11) DEFAULT NULL,
+  `data` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `gxc_session`
+--
+
+
+
+-- --------------------------------------------------------
 -- --------------------------------------------------------
 
 --
@@ -401,24 +423,6 @@ CREATE TABLE `gxc_rights` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `gxc_session`
---
-
-CREATE TABLE `gxc_session` (
-  `id` char(32) NOT NULL,
-  `expire` int(11) DEFAULT NULL,
-  `data` text,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `gxc_session`
---
-
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `gxc_settings`
 --
 
@@ -429,7 +433,7 @@ CREATE TABLE `gxc_settings` (
   `value` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `category_key` (`category`,`key`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_settings`
@@ -627,7 +631,7 @@ CREATE TABLE `gxc_user` (
 -- Dumping data for table `gxc_user`
 --
 
-INSERT INTO `gxc_user` VALUES(1, 'admin', 'admin', 'Admin', '{{password}}', '{{password_salt}}', 'admin@localhost.com', NULL, 1, {{time}}, {{time}}, {{time}}, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, NULL);
+INSERT INTO `gxc_user` VALUES(1, 'admin', 'admin', 'Admin', '{{password}}', '{{password_salt}}', 'admin@localhost.com', NULL, 1, {{time}}, {{time}}, {{time}}, '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, NULL);
 
 
 -- --------------------------------------------------------

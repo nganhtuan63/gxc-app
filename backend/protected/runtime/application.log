@@ -6163,3 +6163,118 @@ Stack trace:
 #1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /Applications/MAMP/htdocs/khoinguyen/backend/index-test.php(38): CApplication->run()
 #3 {main} REQUEST_URI=/khoinguyen/backend/css/osg.css
+2012/02/08 10:04:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install/run".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('install/run')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/install/run
+2012/02/08 10:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install/run".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('install/run')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/install/run
+2012/02/08 10:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 10:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install/run".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('install/run')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/install/run
+2012/02/08 10:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 10:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install/run".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('install/run')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/install/run
+2012/02/08 10:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 10:16:18 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeinstallController.php(11): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(345): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(271): CWebApplication->createController()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/backend/beinstall/run
+2012/02/08 10:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 10:18:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671098.
+2012/02/08 10:22:04 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'gxc_cms'
+2012/02/08 10:22:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CDbHttpSession.php(147): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CDbHttpSession.php(171): CDbHttpSession->getDbConnection()
+#5 [internal function]: CDbHttpSession->openSession('/Applications/M...', 'PHPSESSID')
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CHttpSession.php(100): session_start()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CHttpSession.php(75): CHttpSession->open()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): CHttpSession->init()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(196): CModule->getComponent('session')
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/translate/components/MPTranslate.php(191): CWebApplication->getSession()
+#11 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/translate/components/MPTranslate.php(54): MPTranslate->getLanguage()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): MPTranslate->init()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(477): CModule->getComponent('translate')
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(142): CModule->preloadComponents()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(128): CApplication->__construct('/Applications/M...')
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/Applications/M...')
+#17 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): YiiBase::createWebApplication('/Applications/M...')
+#18 {main} REQUEST_URI=/sample/backend/beinstall/run
+2012/02/08 10:22:04 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'gxc_cms'
+2012/02/08 10:22:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671337.
+2012/02/08 10:22:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671376.
+2012/02/08 10:27:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671636.
+2012/02/08 10:29:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671745.
+2012/02/08 10:32:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328671967.
+2012/02/08 10:35:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672105.
+2012/02/08 10:37:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672233.
+2012/02/08 10:40:28 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: 
+SELECT data FROM gxc_session
+WHERE expire>1328672428 AND id=:id
+.
+2012/02/08 10:40:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist' in /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbCommand.php:516
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbCommand.php(411): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CDbHttpSession.php(199): CDbCommand->queryScalar()
+#2 [internal function]: CDbHttpSession->readSession('f9f03295f1e0639...')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CHttpSession.php(100): session_start()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CHttpSession.php(75): CHttpSession->open()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): CHttpSession->init()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(196): CModule->getComponent('session')
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/translate/components/MPTranslate.php(191): CWebApplication->getSession()
+#8 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/translate/components/MPTranslate.php(54): MPTranslate->getLanguage()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): MPTranslate->init()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(477): CModule->getComponent('translate')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(142): CModule->preloadComponents()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(128): CApplication->__construct('/Applications/M...')
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/Applications/M...')
+#14 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): YiiBase::createWebApplication('/Applications/M...')
+#15 {main} REQUEST_URI=/sample/backend/beinstall/run
+2012/02/08 10:40:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_auth_assignment' doesn't exist. The SQL statement executed was: SELECT *
+FROM `gxc_auth_assignment`
+WHERE userid=:userid.
+2012/02/08 10:42:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672537.
+2012/02/08 10:43:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672613.

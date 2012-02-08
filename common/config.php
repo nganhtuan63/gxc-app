@@ -136,6 +136,7 @@ return array(
 			),
             
 		 
+		/* 
         //Use Session Handle in Database
         'session' => array(
                 'class' => 'CDbHttpSession',
@@ -143,6 +144,8 @@ return array(
                 'autoCreateSessionTable'=>true,
                 'sessionTableName'=>'gxc_session',
         ),
+		 * 
+		 */
             
 
         //Error Action when having Errors
@@ -160,11 +163,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
+				
 			),
 		),
                 
