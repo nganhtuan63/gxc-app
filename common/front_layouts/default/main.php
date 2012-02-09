@@ -10,14 +10,22 @@
     <meta name="author" content="GxcSolutions" />
     <meta name="copyright" content="GxcSolutions" />
     <?php
-        $layout_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.front_layouts.default.assets'), false, -1, true);
+     	if(YII_DEBUG)
+        	$layout_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.front_layouts.default.assets'), false, -1, true);
+		else 
+			$layout_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.front_layouts.default.assets'), false, -1, false);
     ?>
         
-    <link rel="shortcut icon" href="<?php echo $layout_asset; ?>/images/favicon.ico" type="image/x-icon" />    
-    <link rel="stylesheet" type="text/css" href="<?php echo $layout_asset; ?>/css/jquery-ui.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $layout_asset; ?>/css/screen.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $layout_asset; ?>/css/jquery.jscrollpane.css" media="screen" />
-     
+    <link rel="shortcut icon" href="<?php echo $layout_asset; ?>/images/favicon.ico" type="image/x-icon" />        
+    <link rel="stylesheet" type="text/css" href="<?php echo $layout_asset; ?>/css/screen.css" media="screen" />    
+             
+    <link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/print.css" type="text/css" media="print" />
+    <!--[if IE]><link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+
+	<!-- custom stylesheet -->
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $layout_asset; ?>/css/custom.css" />
+
         
     <title><?php if(isset($title)) { echo $title. " - ".Yii::app()->name; } else echo $page->title; ?></title>
         
@@ -29,49 +37,46 @@
             'jquery.min.js'=>"http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",
             'jquery-ui.js'=>"https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js",
             'jquery-ui.min.js'=>"https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js",
-            'jquery-ui.css'=>false
-            
+            'jquery-ui.css'=>false            
         );        
         $cs->registerCoreScript('jquery');        
-        $cs->registerCoreScript('jquery.ui');   
-        $cs->registerScriptFile( $layout_asset.'/js/jquery.infinitescroll.js');        
-        $cs->registerScriptFile( $layout_asset.'/js/jquery.hoverIntent.minified.js'); 
-        $cs->registerScriptFile( $layout_asset.'/js/jquery.ui.touch-punch.min.js'); 
-        $cs->registerScriptFile( $layout_asset.'/js/jquery.mousewheel.js'); 
-        $cs->registerScriptFile( $layout_asset.'/js/mwheelIntent.js'); 
-        $cs->registerScriptFile( $layout_asset.'/js/jquery.jscrollpane.min.js');         
-        $cs->registerScriptFile( $layout_asset.'/js/util.js?v=3');        
+        //$cs->registerCoreScript('jquery.ui');
+           
+        $cs->registerScriptFile( $layout_asset.'/js/jquery.js?v=1');
+		$cs->registerScriptFile( $layout_asset.'/js/custom.js?v=1');        
     ?>
+    <?php 
+		//Render Widget for Header Script
+		$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'3','layout_asset'=>$layout_asset)); 
+	?>
 </head>
-<body>
-    <div id="container">
-        <div id="header">
-            <div class="innerHeader"> 
-                <h1><a href="<?php echo FRONT_SITE_URL; ?>" title="OnSaleGrab">
-                <img src="<?php echo $layout_asset.'/images/logo.jpg'; ?>" alt="OnSaleGrab" /></a>
-                </h1>
-                <?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'0','layout_asset'=>$layout_asset)); ?>    
-                <div class="clear"></div>
-            </div>
-            <div class="nav" id="nav">
-                <?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'1','layout_asset'=>$layout_asset)); ?>
-            </div>
-        </div>
-        <div id="main" >
-            <div class="blockTop" id="blockTop">
-                <?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'2','layout_asset'=>$layout_asset)); ?>              
-            </div>
-            <div class="wrap_items" id="wrap_items">
-                  <div class="blockItems" id="blockItems" style="margin-left:230px;">
-                    <?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'3','layout_asset'=>$layout_asset)); ?>
-                  </div>                
-            </div>
-          
-            <div id="footer">
-                <?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'4','layout_asset'=>$layout_asset)); ?>
-            </div>
-        </div> 
-       
-    </div> <!-- end container -->
+	<body>
+		<div class="container" id="container">
+			<div class="span-24" id="content">
+				<div class="introduce wide">
+					<?php 
+					//Render Widget for Header Region
+					$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'0','layout_asset'=>$layout_asset)); ?>
+				</div>					
+				
+				<div class="inner_content">					
+					<?php 
+					//Render Widget for Content Region
+					$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'1','layout_asset'=>$layout_asset)); ?>
+				</div>
+				
+				<div class="footer_content">					
+					<?php 
+					//Render Widget for Footer Region
+					$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'2','layout_asset'=>$layout_asset)); ?>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>		
+	<?php 
+		//Render Widget for Footer Script
+		$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'4','layout_asset'=>$layout_asset)); 
+	?>
 </body>
 </html>
