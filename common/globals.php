@@ -403,4 +403,9 @@ function get_youtube_id($url,$need_curl=true) {
    	return false;
    		
 }
+
+
+function isConsoleApp() {
+    return get_class(Yii::app())=='CConsoleApplication';
+}
 ?>

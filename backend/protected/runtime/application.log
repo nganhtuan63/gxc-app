@@ -6278,3 +6278,571 @@ FROM `gxc_auth_assignment`
 WHERE userid=:userid.
 2012/02/08 10:42:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672537.
 2012/02/08 10:43:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.gxc_session' doesn't exist. The SQL statement executed was: DELETE FROM gxc_session WHERE expire<1328672613.
+2012/02/08 13:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index.php(40): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/
+2012/02/08 13:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 13:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite
+2012/02/08 13:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite
+2012/02/08 14:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite/
+2012/02/08 14:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:14:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:16:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite/
+2012/02/08 14:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite
+2012/02/08 14:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite
+2012/02/08 14:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite
+2012/02/08 14:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/index-test.php/besite
+2012/02/08 14:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite
+2012/02/08 14:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite
+2012/02/08 14:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/besite
+2012/02/08 14:22:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hehe".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(262): CController->missingAction('hehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('hehe')
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('besite/hehe')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#5 {main} REQUEST_URI=/sample/backend/besite/hehe
+2012/02/08 14:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hehe".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(262): CController->missingAction('hehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('hehe')
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('besite/hehe')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#5 {main} REQUEST_URI=/sample/backend/besite/hehe
+2012/02/08 14:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 14:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/osg.css".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('css/osg.css')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/css/osg.css
+2012/02/08 15:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ckeditor/adapters/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('js/ckeditor/ada...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/js/ckeditor/adapters/jquery.js
+2012/02/08 15:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ckeditor/ckeditor.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('js/ckeditor/cke...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/js/ckeditor/ckeditor.js
+2012/02/08 15:15:48 [error] [exception.CException] exception 'CException' with message 'Property "SettingSystemForm.page_slug" is not defined.' in /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/helpers/CHtml.php(2063): CComponent->__get('page_slug')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/helpers/CHtml.php(1791): CHtml::resolveValue(Object(SettingSystemForm), 'page_slug')
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/helpers/CHtml.php(1199): CHtml::activeInputField('text', Object(SettingSystemForm), 'page_slug', Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CActiveForm.php(568): CHtml::activeTextField(Object(SettingSystemForm), 'page_slug', Array)
+#4 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/views/settings/settings_system_widget.php(28): CActiveForm->textField(Object(SettingSystemForm), 'page_slug')
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(123): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Applications/M...', Array, false)
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): CBaseController->renderFile('/Applications/M...', Array, false)
+#8 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/settings/SettingsWidget.php(72): CWidget->render('cmswidgets.view...', Array)
+#9 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/settings/SettingsWidget.php(35): SettingsWidget->showSystemForm()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/settings/SettingsWidget.php(26): SettingsWidget->renderContent()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): SettingsWidget->run()
+#12 /Applications/MAMP/htdocs/sample/backend/protected/views/besettings/settings_system.php(5): CBaseController->widget('cmswidgets.sett...', Array)
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require('/Applications/M...')
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): CBaseController->renderFile('/Applications/M...', NULL, true)
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): CController->renderPartial('settings_system', NULL, true)
+#17 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesettingsController.php(29): CController->render('settings_system')
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BesettingsController->actionSystem()
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('system')
+#28 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('besettings/syst...')
+#29 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#30 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#31 {main} REQUEST_URI=/sample/backend/besettings/system
+2012/02/08 16:29:16 [error] [php] Undefined variable: backend_asset (/Applications/MAMP/htdocs/sample/backend/protected/views/besite/index.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BesiteController->renderFile()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BesiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php(23): BesiteController->render()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BesiteController->actionIndex()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BesiteController->runAction()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BesiteController->filterRights()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BesiteController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BesiteController->run()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/besite/index
+2012/02/08 16:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/aae76291/calendar.png".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/aae76291...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/assets/aae76291/calendar.png
+2012/02/08 16:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/aae76291/images/upload_file.png".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/aae76291...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/assets/aae76291/images/upload_file.png
+2012/02/08 17:10:30 [error] [php] Use of undefined constant besite - assumed 'besite' (/Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php:78)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BesiteController->runAction()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BesiteController->filterRights()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BesiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BesiteController->run()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/besite/logout
+in /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php (78)
+in /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php (39)
+in /Applications/MAMP/htdocs/sample/backend/index-test.php (39)
+2012/02/08 21:05:54 [error] [php] Use of undefined constant besite - assumed 'besite' (/Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php:78)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BesiteController->runAction()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BesiteController->filterRights()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BesiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BesiteController->run()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/besite/logout
+in /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php (78)
+in /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php (39)
+in /Applications/MAMP/htdocs/sample/backend/index-test.php (39)
+2012/02/08 21:21:23 [error] [exception.CException] exception 'CException' with message 'Property "BesiteController.backend_assets" is not defined.' in /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/layouts/main.php(55): CComponent->__get('backend_assets')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Applications/M...', Array, true)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(781): CBaseController->renderFile('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php(23): CController->render('index')
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BesiteController->actionIndex()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('')
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#18 {main} REQUEST_URI=/sample/backend/index-test.php
+2012/02/08 21:21:34 [error] [php] Undefined variable: backend_assets (/Applications/MAMP/htdocs/sample/backend/protected/views/layouts/main.php:55)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(781): BesiteController->renderFile()
+#1 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php(23): BesiteController->render()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BesiteController->actionIndex()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BesiteController->runAction()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BesiteController->filterRights()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BesiteController->runActionWithFilters()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BesiteController->run()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/index-test.php
+in /Applications/MAMP/htdocs/sample/backend/protected/views/layouts/main.php (55)
+in /Applications/MAMP/htdocs/sample/backend/protected/controllers/BesiteController.php (23)
+in /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php (39)
+2012/02/08 21:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beoject/create/type/article".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('beoject/create/...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/beoject/create/type/article
+2012/02/08 21:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beoject/create/type/article".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('beoject/create/...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/beoject/create/type/article
+2012/02/08 21:58:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beoject/create/type/article".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('beoject/create/...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main} REQUEST_URI=/sample/backend/beoject/create/type/article
+2012/02/09 10:58:44 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/beobject/create/type/event
+2012/02/09 10:59:41 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/beobject/create/type/event
+2012/02/09 11:00:13 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/beobject/create/type/event
+2012/02/09 11:00:59 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/index-test.php/beobject/create/type/event
+2012/02/09 11:01:38 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/beobject/create/type/article
+2012/02/09 11:02:57 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php:148)
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php(4): BeobjectController->widget()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): BeobjectController->renderInternal()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): BeobjectController->renderFile()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): BeobjectController->renderPartial()
+#5 /Applications/MAMP/htdocs/sample/backend/protected/controllers/BeobjectController.php(28): BeobjectController->render()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): BeobjectController->actionCreate()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): BeobjectController->runAction()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): BeobjectController->filterRights()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): BeobjectController->runActionWithFilters()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): BeobjectController->run()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
+REQUEST_URI=/sample/backend/beobject/create/type/article
+in /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php (148)
+in /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/object/ObjectCreateWidget.php (25)
+in /Applications/MAMP/htdocs/sample/backend/protected/views/beobject/object_create.php (4)

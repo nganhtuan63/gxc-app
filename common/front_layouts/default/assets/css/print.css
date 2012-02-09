@@ -1,29 +1,30 @@
-/******** Default rules for tag ********/
-body{font-family:"Times New Roman", Times, serif;}
-img, fieldset{border:0}
-h1{font-size:1.4em;}
-h2{font-size:1.8em;}
-h3{font-size:1.1em;}
-h4{font-size:1.0em;}
-h5{font-size:1em;}
-ol, ul{list-style-type:none;}
-li {list-style-type:disc;}
-dt{font-weight:bold;}
-a{text-decoration:underline; color:#000;}
-a:hover{text-decoration:none;}
-input, select, textarea{border:1px solid #000;}
-input { padding:1px 0}
-select { padding:0; margin:0; line-height:normal;}
-div{text-align:left;}
-caption { display:none}
-table{border-collapse:separate; border-spacing:0; border-top:1px solid #000; border-left:1px solid #000;}
-th, td{ text-align:left; padding:5px; border-right:1px solid #000; border-bottom:1px solid #000;}
+/* -----------------------------------------------------------------------
 
-/*//////LOGO////////////////////////////////////////////////*/
-#header * {display:none;}
-#header h1, #header h1 * {display:block; margin:0 auto; text-align:center!important;}
 
-/*//////All Elements display none////////////////////////////////////////////////*/
-#footer{ display:none}
+ Blueprint CSS Framework 0.8
+ http://blueprintcss.org
 
-/*//////All Elements display////////////////////////////////////////////////*/
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* print.css */
+body {line-height:1.5;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;color:#000;background:none;font-size:10pt;}
+.container {background:none;}
+hr {background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none;}
+hr.space {background:#fff;color:#fff;}
+h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;}
+code {font:.9em "Courier New", Monaco, Courier, monospace;}
+img {float:left;margin:1.5em 1.5em 1.5em 0;}
+a img {border:none;}
+p img.top {margin-top:0;}
+blockquote {margin:1.5em;padding:1em;font-style:italic;font-size:.9em;}
+.small {font-size:.9em;}
+.large {font-size:1.1em;}
+.quiet {color:#999;}
+.hide {display:none;}
+a:link, a:visited {background:transparent;font-weight:700;text-decoration:underline;}
+a:link:after, a:visited:after {content:" (" attr(href) ")";font-size:90%;}

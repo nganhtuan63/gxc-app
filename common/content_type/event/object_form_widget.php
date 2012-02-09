@@ -183,7 +183,9 @@
                             <div class="content-box-content" style="display: block;">
 
                                     <div class="tab-content default-tab" id="summary_box">
-                                        
+                                         <?php echo $form->label($model,'object_author_name'); ?>
+                                        <?php echo $form->textField($model,'object_author_name',array('id'=>'txt_object_author_name')); ?>
+                                        <?php echo $form->error($model,'object_author_name'); ?>
                                         
                                         <?php echo $form->labelEx($model,'tags'); ?>
                                         <?php $this->widget('CAutoComplete', array(
