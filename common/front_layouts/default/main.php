@@ -57,7 +57,11 @@
 					<?php 
 					//Render Widget for Header Region
 					$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'0','layout_asset'=>$layout_asset)); ?>
-				</div>					
+				</div>				
+				
+				<div class="info wide">
+					<img src="<?php echo $layout_asset; ?>/images/nhatrang.png" width="900px" />
+				</div>	
 				
 				<div class="inner_content">					
 					<?php 
