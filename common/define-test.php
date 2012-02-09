@@ -5,6 +5,7 @@ define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
 define('IMAGES_URL','http://http://localhost/sample/images');  
 define('AVATAR_URL','http://http://localhost/sample/avatar');  
 define('SITE_NAME','GXC-CMS Demo TEST ZONE');
+define('SLOGAN','We build apps for better life experience');
 define('SITE_NAME_URL','http://localhost/sample/frontend');
 define('SUPPORT_EMAIL','support@localhost');
 define('FRONT_SITE_URL','http://localhost/sample/frontend');

@@ -30,7 +30,8 @@ class BeinstallController extends CController
 				//Replace some default attributes
 				
 				$sql=str_replace("{{SITE_NAME}}", serialize(SITE_NAME), $sql);
-				$sql=str_replace("{{SUPPORT_EMAIL}}", serialize(SUPPORT_EMAIL), $sql);	
+				$sql=str_replace("{{SUPPORT_EMAIL}}", serialize(SUPPORT_EMAIL), $sql);
+				$sql=str_replace("{{SLOGAN}}", serialize(SLOGAN), $sql);		
 				$sql=str_replace("{{time}}", time(), $sql);
 				$sql=str_replace("{{password_salt}}", USER_SALT, $sql);
 				

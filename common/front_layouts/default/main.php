@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $layout_asset; ?>/css/custom.css" />
 
         
-    <title><?php if(isset($title)) { echo $title. " - ".Yii::app()->name; } else echo $page->title; ?></title>
+    <title><?php if(isset($title)) { echo $title. " - ".settings()->get('general', 'site_name'); } else echo $page->title; ?></title>
         
     <?php    
         $cs=Yii::app()->clientScript;

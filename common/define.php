@@ -4,6 +4,7 @@ define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
 define('IMAGES_URL','http://images.gxcsolutions.com');  
 define('AVATAR_URL','http://avatar.gxcsolutions.com');  
 define('SITE_NAME','GXC-CMS Demo Website');
+define('SLOGAN','We build apps for better life experience');
 define('SITE_NAME_URL','demo-frontend.gxcsolutions.com');
 define('SUPPORT_EMAIL','support@gxcsolutions.com');
 define('FRONT_SITE_URL','http://demo-frontend.gxcsolutions.com');

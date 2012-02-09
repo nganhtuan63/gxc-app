@@ -148,11 +148,13 @@ CREATE TABLE `gxc_block` (
   `updated` int(11) NOT NULL,
   `params` text NOT NULL,
   PRIMARY KEY (`block_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `gxc_block`
 --
+
+INSERT INTO `gxc_block` VALUES(1, 'Logo and Info Block', 'logo_info', 1328776042, 1, 1328776042, 'a:0:{}');
 
 
 -- --------------------------------------------------------
@@ -287,11 +289,18 @@ CREATE TABLE `gxc_object` (
   KEY `type_status_date` (`object_type`,`object_status`,`object_date`,`object_id`),
   KEY `object_parent` (`object_parent`),
   KEY `object_author` (`object_author`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `gxc_object`
 --
+
+--
+-- Dumping data for table `gxc_object`
+--
+
+INSERT INTO `gxc_object` VALUES(1, 1, 1328760601, 1328735401, '<p>\r\n	Hello and welcome to GXC-CMS! You can edit or delete this article later!&nbsp;</p>\r\n', 'Hello and welcome to GXC-CMS', 'Hello and welcome to GXC-CMS', 1, 1, NULL, 'Hello and welcome to GXC-CMS', 1328760601, 1328735401, NULL, 0, '4f3347193c8af', 'article', 0, 'hello-and-welcome-to-gxccms', 'Hello and welcome to GXC-CMS', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
+INSERT INTO `gxc_object` VALUES(4, 1, 1328760876, 1328735676, '<p>\r\n	Let&#39;s party for a new website! Why not man :D&nbsp;</p>\r\n', 'Let''s party for a new website', 'Why not ?', 1, 1, NULL, 'Let''s party for a new website', 1328760876, 1328735676, NULL, 0, '4f33482c7d45f', 'event', 0, 'let-s-party-for-a-new-website', 'Why not ?', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
 
 
 -- --------------------------------------------------------
@@ -308,11 +317,15 @@ CREATE TABLE `gxc_object_meta` (
   PRIMARY KEY (`meta_id`),
   KEY `object_id` (`meta_object_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `gxc_object_meta`
 --
+
+
+INSERT INTO `gxc_object_meta` VALUES(1, 4, 'start_date', '2012-02-09 04:31:00');
+INSERT INTO `gxc_object_meta` VALUES(2, 4, 'end_date', '2012-02-13 02:20:00');
 
 
 -- --------------------------------------------------------
@@ -381,6 +394,8 @@ CREATE TABLE `gxc_page` (
 -- Dumping data for table `gxc_page`
 --
 
+INSERT INTO `gxc_page` VALUES(1, 'home', 'Homepage', 'Homepage', 0, 'default', 'home', 2, '4f3373e0a0648', 1, 'Homepage', 1, 1, 'main');
+
 
 -- --------------------------------------------------------
 
@@ -400,6 +415,8 @@ CREATE TABLE `gxc_page_block` (
 --
 -- Dumping data for table `gxc_page_block`
 --
+
+INSERT INTO `gxc_page_block` VALUES(1, 1, 1, 1, 0);
 
 
 -- --------------------------------------------------------
@@ -433,7 +450,7 @@ CREATE TABLE `gxc_settings` (
   `value` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `category_key` (`category`,`key`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Dumping data for table `gxc_settings`
@@ -446,6 +463,7 @@ INSERT INTO `gxc_settings` VALUES(7, 'general', 'site_name', '{{SITE_NAME}}');
 INSERT INTO `gxc_settings` VALUES(8, 'general', 'site_title', '{{SITE_NAME}}');
 INSERT INTO `gxc_settings` VALUES(9, 'general', 'site_description', '{{SITE_NAME}}');
 INSERT INTO `gxc_settings` VALUES(13, 'general', 'homepage', 's:4:"home";');
+INSERT INTO `gxc_settings` VALUES(14, 'general', 'slogan', '{{SLOGAN}}');
 
 -- --------------------------------------------------------
 
@@ -524,6 +542,9 @@ CREATE TABLE `gxc_taxonomy` (
 -- Dumping data for table `gxc_taxonomy`
 --
 
+INSERT INTO `gxc_taxonomy` VALUES(1, 'Article Categories', 'Article Categories', 'article', 2, '4f336d87ac576');
+INSERT INTO `gxc_taxonomy` VALUES(2, 'Event Categories', 'Event Categories', 'event', 2, '4f336d99f1482');
+
 
 -- --------------------------------------------------------
 
@@ -546,6 +567,9 @@ CREATE TABLE `gxc_term` (
 --
 -- Dumping data for table `gxc_term`
 --
+
+INSERT INTO `gxc_term` VALUES(1, 1, 'Uncategories', 'Uncategories', 'uncategories', 0, 1);
+INSERT INTO `gxc_term` VALUES(2, 2, 'Uncategories', 'Uncategories', 'uncategories-event', 0, 1);
 
 
 -- --------------------------------------------------------
@@ -571,7 +595,8 @@ CREATE TABLE `gxc_transfer` (
 -- Dumping data for table `gxc_transfer`
 --
 
-
+INSERT INTO `gxc_transfer` VALUES(43, 1, 1, 0, 2, 1, 3, NULL, 1328760601);
+INSERT INTO `gxc_transfer` VALUES(46, 4, 1, 0, 2, 1, 3, NULL, 1328760876);
 
 -- --------------------------------------------------------
 
@@ -625,7 +650,7 @@ CREATE TABLE `gxc_user` (
   PRIMARY KEY (`user_id`),
   KEY `username` (`username`),
   KEY `email` (`email`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `gxc_user`
