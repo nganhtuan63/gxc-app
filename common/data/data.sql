@@ -148,13 +148,19 @@ CREATE TABLE `gxc_block` (
   `updated` int(11) NOT NULL,
   `params` text NOT NULL,
   PRIMARY KEY (`block_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `gxc_block`
 --
 
+
 INSERT INTO `gxc_block` VALUES(1, 'Logo and Info Block', 'logo_info', 1328776042, 1, 1328776042, 'a:0:{}');
+INSERT INTO `gxc_block` VALUES(2, 'Introduce Block - This is a simple HTML Block', 'html', 1328778200, 1, 1328863645, 'a:1:{s:4:"html";s:568:"\r\n<h2>About Us &amp; Our Mission</h2>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis lacus. Quisque aliquam facilisis augue, et viverra mauris pellentesque sed. Quisque ut nibh at eros commodo auctor nec eu augue. Vivamus dignissim sollicitudin aliquet. Vivamus sed commodo turpis. Fusce tempor euismod accumsan. Nunc non tincidunt dui. Vestibulum bibendum ligula nec enim lobortis et euismod arcu gravida. Aenean blandit turpis id libero varius hendrerit. Nunc vitae malesuada elit. Nam sit amet arcu vel eros commodo euismod.</p>\r\n\r\n";}');
+INSERT INTO `gxc_block` VALUES(3, 'Footer Block - Just a simple HTML Block', 'html', 1328780295, 1, 1328782216, 'a:1:{s:4:"html";s:474:" <div class="info wide">\r\n        	<h2>Contact Us</h2>\r\n<p>GXC CMS is an open source CMS written on Yii Framework. It has been developed since July 2011 by <a href="http://www.nganhtuan.com">Tuan Nguyen </a> and <a href="http://www.tringuyen.me">Tri Nguyen</a> from <a href="http://www.gxcsolutions.com">GxcSolutions</a>. Happy coding!  </p>\r\n        	<p>We love to talk and share, feel free to contact us at <br /> info@gxcsolutions.com\r\n        	<p>&copy; 2012</p>\r\n</div>";}');
+INSERT INTO `gxc_block` VALUES(4, 'This is a sample of a content list render Block', 'listview', 1328781868, 1, 1328861471, 'a:2:{s:12:"content_list";a:1:{i:0;s:1:"1";}s:12:"display_type";s:1:"0";}');
+INSERT INTO `gxc_block` VALUES(5, 'Error Notification Block', 'error_notification', 1328862233, 1, 1328862233, 'a:0:{}');
+INSERT INTO `gxc_block` VALUES(6, 'Content detail view ', 'content_detail_view', 1328863997, 1, 1328863997, 'a:0:{}');
 
 
 -- --------------------------------------------------------
@@ -169,13 +175,13 @@ CREATE TABLE `gxc_content_list` (
   `value` text NOT NULL,
   `created` int(11) NOT NULL,
   PRIMARY KEY (`content_list_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `gxc_content_list`
 --
 
-
+INSERT INTO `gxc_content_list` VALUES(1, 'List of newest articles for the homepage', 'a:9:{s:4:"type";s:1:"2";s:4:"lang";a:1:{i:0;s:1:"0";}s:12:"content_type";a:1:{i:0;s:7:"article";}s:5:"terms";a:1:{i:0;s:1:"0";}s:4:"tags";s:0:"";s:6:"paging";s:1:"0";s:6:"number";s:1:"2";s:8:"criteria";s:1:"1";s:11:"manual_list";a:0:{}}', 1328781851);
 
 -- --------------------------------------------------------
 
@@ -215,7 +221,7 @@ CREATE TABLE `gxc_menu` (
   `lang` tinyint(4) DEFAULT NULL,
   `guid` varchar(255) NOT NULL,
   PRIMARY KEY (`menu_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_menu`
@@ -238,7 +244,7 @@ CREATE TABLE `gxc_menu_item` (
   `parent` int(10) NOT NULL DEFAULT '0',
   `order` int(11) NOT NULL,
   PRIMARY KEY (`menu_item_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=95 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `gxc_menu_item`
@@ -289,7 +295,7 @@ CREATE TABLE `gxc_object` (
   KEY `type_status_date` (`object_type`,`object_status`,`object_date`,`object_id`),
   KEY `object_parent` (`object_parent`),
   KEY `object_author` (`object_author`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `gxc_object`
@@ -299,8 +305,10 @@ CREATE TABLE `gxc_object` (
 -- Dumping data for table `gxc_object`
 --
 
-INSERT INTO `gxc_object` VALUES(1, 1, 1328760601, 1328735401, '<p>\r\n	Hello and welcome to GXC-CMS! You can edit or delete this article later!&nbsp;</p>\r\n', 'Hello and welcome to GXC-CMS', 'Hello and welcome to GXC-CMS', 1, 1, NULL, 'Hello and welcome to GXC-CMS', 1328760601, 1328735401, NULL, 0, '4f3347193c8af', 'article', 0, 'hello-and-welcome-to-gxccms', 'Hello and welcome to GXC-CMS', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
-INSERT INTO `gxc_object` VALUES(4, 1, 1328760876, 1328735676, '<p>\r\n	Let&#39;s party for a new website! Why not man :D&nbsp;</p>\r\n', 'Let''s party for a new website', 'Why not ?', 1, 1, NULL, 'Let''s party for a new website', 1328760876, 1328735676, NULL, 0, '4f33482c7d45f', 'event', 0, 'let-s-party-for-a-new-website', 'Why not ?', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
+
+INSERT INTO `gxc_object` VALUES(5, 1, 1328780832, 1328755632, '<p>\r\n	<span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit tincidunt dui auctor porta sit amet vel eros. Etiam bibendum vulputate odio at rutrum. In lectus tellus, commodo a cursus a, lacinia ac turpis. Cras sodales lobortis est, sit amet blandit tortor pharetra quis. Integer blandit turpis eget est faucibus egestas non non lacus. Sed mi eros, convallis vel consequat eleifend, gravida quis enim. Duis lectus libero, vestibulum sed pellentesque quis, elementum scelerisque orci. Pellentesque vitae lectus in justo tempus iaculis.</span></p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Donec bibendum tincidunt diam, euismod molestie orci faucibus eu. Proin non tortor urna, at vulputate orci. Curabitur vel ligula magna. Sed eu massa enim. Suspendisse erat diam, sodales sed tristique at, accumsan et risus. In molestie aliquet nisl ac vestibulum. Aliquam eros dolor, laoreet ac iaculis eget, pretium in lectus. Suspendisse in nisi sapien. Vestibulum in scelerisque quam. Donec nec velit ligula, ut pulvinar nibh. Nulla iaculis, diam eget porta imperdiet, odio tortor semper odio, vel lobortis diam erat vel nisi.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Sed in neque diam. Aenean nec neque lorem, id rutrum tellus. Sed at metus quam. Sed adipiscing lacus enim. Curabitur pharetra mauris a tortor bibendum vitae scelerisque erat congue. Cras molestie tincidunt elementum. Proin quis enim risus, ut porta erat. Vestibulum tristique nisi et magna viverra placerat. Phasellus varius, est quis aliquam suscipit, felis mauris malesuada lectus, nec rutrum urna libero vitae est. Proin quis mauris id arcu cursus euismod nec sed purus. Duis lectus metus, tincidunt ac placerat eu, rutrum id odio. Donec vulputate lorem a mi sagittis imperdiet. In metus sem, faucibus sed tempor non, lacinia vitae quam.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	In id hendrerit purus. Suspendisse molestie nisl sagittis nisl laoreet consequat. Mauris et quam ligula. Praesent vulputate blandit iaculis. Aliquam erat volutpat. In elementum porta ligula ut semper. Donec at felis purus, id accumsan quam. Aliquam molestie aliquam odio consectetur volutpat. Cras neque mi, ullamcorper at laoreet fermentum, feugiat sed leo. Praesent placerat mattis mauris at auctor. Sed odio nisl, molestie in dapibus nec, condimentum eu dui.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Praesent ligula neque, semper vitae lobortis vestibulum, tempor vel sapien. Nullam feugiat felis id enim iaculis posuere. Maecenas vitae lectus at ligula condimentum sodales. Proin vitae nisl sit amet nulla rutrum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean mollis luctus nisi, ac congue quam vehicula nec. Donec eget ipsum dolor. Aliquam erat volutpat. Fusce in turpis ante, quis fermentum magna. Maecenas eu tortor ac quam tincidunt euismod ac sed tellus. Sed libero nisl, posuere id ultrices et, aliquet vitae turpis. Morbi non odio ut velit tempus pharetra. Duis sagittis elit id nisi tincidunt vulputate.</p>\r\n', 'This is the sample post number 1', 'Donec bibendum tincidunt diam, euismod molestie orci faucibus eu. Proin non tortor urna, at vulputate orci. Curabitur vel ligula magna. Sed eu massa enim. Suspendisse erat diam, sodales sed tristique at, accumsan et risus. In molestie aliquet nisl ac vestibulum.', 1, 1, NULL, 'This is the sample post number 1', 1328867986, 1328842786, NULL, 0, '4f33962019cfe', 'article', 0, 'this-is-the-sample-post-number-1', 'Donec bibendum tincidunt diam, euismod molestie orci faucibus eu. Proin non tortor urna, at vulputate orci. Curabitur vel ligula magna. Sed eu massa enim. Suspendisse erat diam, sodales sed tristique at, accumsan et risus. In molestie aliquet nisl ac vestibulum.', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
+INSERT INTO `gxc_object` VALUES(6, 1, 1328780861, 1328755661, '<p>\r\n	<span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit tincidunt dui auctor porta sit amet vel eros. Etiam bibendum vulputate odio at rutrum. In lectus tellus, commodo a cursus a, lacinia ac turpis. Cras sodales lobortis est, sit amet blandit tortor pharetra quis. Integer blandit turpis eget est faucibus egestas non non lacus. Sed mi eros, convallis vel consequat eleifend, gravida quis enim. Duis lectus libero, vestibulum sed pellentesque quis, elementum scelerisque orci. Pellentesque vitae lectus in justo tempus iaculis.</span></p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Donec bibendum tincidunt diam, euismod molestie orci faucibus eu. Proin non tortor urna, at vulputate orci. Curabitur vel ligula magna. Sed eu massa enim. Suspendisse erat diam, sodales sed tristique at, accumsan et risus. In molestie aliquet nisl ac vestibulum. Aliquam eros dolor, laoreet ac iaculis eget, pretium in lectus. Suspendisse in nisi sapien. Vestibulum in scelerisque quam. Donec nec velit ligula, ut pulvinar nibh. Nulla iaculis, diam eget porta imperdiet, odio tortor semper odio, vel lobortis diam erat vel nisi.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Sed in neque diam. Aenean nec neque lorem, id rutrum tellus. Sed at metus quam. Sed adipiscing lacus enim. Curabitur pharetra mauris a tortor bibendum vitae scelerisque erat congue. Cras molestie tincidunt elementum. Proin quis enim risus, ut porta erat. Vestibulum tristique nisi et magna viverra placerat. Phasellus varius, est quis aliquam suscipit, felis mauris malesuada lectus, nec rutrum urna libero vitae est. Proin quis mauris id arcu cursus euismod nec sed purus. Duis lectus metus, tincidunt ac placerat eu, rutrum id odio. Donec vulputate lorem a mi sagittis imperdiet. In metus sem, faucibus sed tempor non, lacinia vitae quam.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	In id hendrerit purus. Suspendisse molestie nisl sagittis nisl laoreet consequat. Mauris et quam ligula. Praesent vulputate blandit iaculis. Aliquam erat volutpat. In elementum porta ligula ut semper. Donec at felis purus, id accumsan quam. Aliquam molestie aliquam odio consectetur volutpat. Cras neque mi, ullamcorper at laoreet fermentum, feugiat sed leo. Praesent placerat mattis mauris at auctor. Sed odio nisl, molestie in dapibus nec, condimentum eu dui.</p>\r\n<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; ">\r\n	Praesent ligula neque, semper vitae lobortis vestibulum, tempor vel sapien. Nullam feugiat felis id enim iaculis posuere. Maecenas vitae lectus at ligula condimentum sodales. Proin vitae nisl sit amet nulla rutrum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean mollis luctus nisi, ac congue quam vehicula nec. Donec eget ipsum dolor. Aliquam erat volutpat. Fusce in turpis ante, quis fermentum magna. Maecenas eu tortor ac quam tincidunt euismod ac sed tellus. Sed libero nisl, posuere id ultrices et, aliquet vitae turpis. Morbi non odio ut velit tempus pharetra. Duis sagittis elit id nisi tincidunt vulputate.</p>\r\n', 'This is the sample post number 2', 'In id hendrerit purus. Suspendisse molestie nisl sagittis nisl laoreet consequat. Mauris et quam ligula. Praesent vulputate blandit iaculis. Aliquam erat volutpat. In elementum porta ligula ut semper.', 1, 1, NULL, 'This is the sample post number 2', 1328867993, 1328842793, NULL, 0, '4f33963d6b7d6', 'article', 0, 'this-is-the-sample-post-number-2', 'In id hendrerit purus. Suspendisse molestie nisl sagittis nisl laoreet consequat. Mauris et quam ligula. Praesent vulputate blandit iaculis. Aliquam erat volutpat. In elementum porta ligula ut semper.', '', 2, 'Admin', 0, 0, '', 0, 0, 0, 0, 0, NULL);
+
 
 
 -- --------------------------------------------------------
@@ -324,8 +332,6 @@ CREATE TABLE `gxc_object_meta` (
 --
 
 
-INSERT INTO `gxc_object_meta` VALUES(1, 4, 'start_date', '2012-02-09 04:31:00');
-INSERT INTO `gxc_object_meta` VALUES(2, 4, 'end_date', '2012-02-13 02:20:00');
 
 
 -- --------------------------------------------------------
@@ -365,6 +371,9 @@ CREATE TABLE `gxc_object_term` (
 -- Dumping data for table `gxc_object_term`
 --
 
+INSERT INTO `gxc_object_term` VALUES(5, 1);
+INSERT INTO `gxc_object_term` VALUES(6, 1);
+
 
 -- --------------------------------------------------------
 
@@ -388,13 +397,16 @@ CREATE TABLE `gxc_page` (
   `allow_follow` tinyint(1) NOT NULL DEFAULT '1',
   `display_type` varchar(50) NOT NULL DEFAULT 'main',
   PRIMARY KEY (`page_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `gxc_page`
 --
 
 INSERT INTO `gxc_page` VALUES(1, 'home', 'Homepage', 'Homepage', 0, 'default', 'home', 2, '4f3373e0a0648', 1, 'Homepage', 1, 1, 'main');
+INSERT INTO `gxc_page` VALUES(2, 'Error', 'Error', 'Error Notification', 0, 'default', 'error', 2, '4f34d20be0f79', 1, 'Error Notification', 1, 1, 'empty');
+INSERT INTO `gxc_page` VALUES(3, 'Post Detail View', 'Post Detail View', 'Post Detail View', 1, 'default', 'post', 2, '4f34da1b41620', 1, 'Post Detail View', 1, 1, 'main');
+
 
 
 -- --------------------------------------------------------
@@ -416,7 +428,14 @@ CREATE TABLE `gxc_page_block` (
 -- Dumping data for table `gxc_page_block`
 --
 
+INSERT INTO `gxc_page_block` VALUES(1, 2, 1, 1, 1);
+INSERT INTO `gxc_page_block` VALUES(1, 3, 1, 1, 2);
+INSERT INTO `gxc_page_block` VALUES(1, 4, 2, 1, 1);
 INSERT INTO `gxc_page_block` VALUES(1, 1, 1, 1, 0);
+INSERT INTO `gxc_page_block` VALUES(2, 5, 1, 1, 1);
+INSERT INTO `gxc_page_block` VALUES(3, 6, 1, 1, 1);
+INSERT INTO `gxc_page_block` VALUES(3, 1, 1, 1, 0);
+INSERT INTO `gxc_page_block` VALUES(3, 3, 1, 1, 2);
 
 
 -- --------------------------------------------------------
@@ -450,7 +469,7 @@ CREATE TABLE `gxc_settings` (
   `value` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `category_key` (`category`,`key`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `gxc_settings`
@@ -464,6 +483,10 @@ INSERT INTO `gxc_settings` VALUES(8, 'general', 'site_title', '{{SITE_NAME}}');
 INSERT INTO `gxc_settings` VALUES(9, 'general', 'site_description', '{{SITE_NAME}}');
 INSERT INTO `gxc_settings` VALUES(13, 'general', 'homepage', 's:4:"home";');
 INSERT INTO `gxc_settings` VALUES(14, 'general', 'slogan', '{{SLOGAN}}');
+INSERT INTO `gxc_settings` VALUES(15, 'general', 'post_link', 's:4:"post";');
+INSERT INTO `gxc_settings` VALUES(16, 'general', 'error_link', 's:5:"error";');
+
+
 
 -- --------------------------------------------------------
 
@@ -521,8 +544,6 @@ CREATE TABLE `gxc_tag_relationships` (
 --
 
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `gxc_taxonomy`
 --
@@ -536,7 +557,7 @@ CREATE TABLE `gxc_taxonomy` (
   `guid` varchar(255) NOT NULL,
   PRIMARY KEY (`taxonomy_id`),
   KEY `taxonomy` (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `gxc_taxonomy`
@@ -544,7 +565,6 @@ CREATE TABLE `gxc_taxonomy` (
 
 INSERT INTO `gxc_taxonomy` VALUES(1, 'Article Categories', 'Article Categories', 'article', 2, '4f336d87ac576');
 INSERT INTO `gxc_taxonomy` VALUES(2, 'Event Categories', 'Event Categories', 'event', 2, '4f336d99f1482');
-
 
 -- --------------------------------------------------------
 
@@ -562,7 +582,7 @@ CREATE TABLE `gxc_term` (
   `order` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`term_id`),
   KEY `name` (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `gxc_term`
@@ -589,7 +609,7 @@ CREATE TABLE `gxc_transfer` (
   `note` varchar(125) DEFAULT NULL,
   `time` int(11) NOT NULL,
   PRIMARY KEY (`transfer_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=43 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=47 ;
 
 --
 -- Dumping data for table `gxc_transfer`
