@@ -2,6 +2,9 @@
 
 class EventObject extends Object {
 
+
+	const DETAIL_VIEW_SLUG='post';
+	
 	public $start_date;
 	public $end_date;
 

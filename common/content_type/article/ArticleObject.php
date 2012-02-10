@@ -2,6 +2,9 @@
 
 class ArticleObject extends Object
 {
+	
+	const DETAIL_VIEW_SLUG='post';
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return Object the static model class

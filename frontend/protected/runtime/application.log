@@ -3807,3 +3807,1058 @@ Stack trace:
 #12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #13 /Applications/MAMP/htdocs/sample/frontend/index.php(40): CApplication->run()
 #14 {main} REQUEST_URI=/sample/frontend/
+2012/02/09 14:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 14:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 14:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:44:13 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'gxc_cms'
+2012/02/09 15:44:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(429): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/ar/CActiveRecord.php(609): CApplication->getDb()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/ar/CActiveRecord.php(2275): CActiveRecord->getDbConnection()
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Page))
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/models/page/Page.php(24): CActiveRecord::model('Page')
+#8 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(50): Page::model()
+#9 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('home')
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('')
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#22 /Applications/MAMP/htdocs/sample/frontend/index.php(40): CApplication->run()
+#23 {main} REQUEST_URI=/sample/frontend/
+2012/02/09 15:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/jquery.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/jquery.js?v=1
+2012/02/09 15:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/js/custom.js".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/js/custom.js?v=1
+2012/02/09 15:57:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 15:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/nhatrang.png".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/nhatrang.png
+2012/02/09 16:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 16:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/09 17:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 08:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 10:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 10:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 10:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 14:59:55 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#2 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#8 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#13 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#14 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/sample/frontend/index.php(40): CWebApplication->run()
+REQUEST_URI=/sample/frontend/
+2012/02/10 15:01:40 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#2 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#8 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#13 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#14 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/sample/frontend/index.php(40): CWebApplication->run()
+REQUEST_URI=/sample/frontend/
+2012/02/10 15:01:50 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#2 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#8 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#13 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#14 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (4)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (38)
+2012/02/10 15:03:34 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#2 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#8 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#13 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#14 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (4)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (38)
+2012/02/10 15:03:35 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#2 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#8 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#13 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#14 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (4)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (38)
+2012/02/10 15:04:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:04:36 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php:97)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(123): require()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#4 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#9 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#14 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#15 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (97)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (8)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+2012/02/10 15:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:05:45 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php:99)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(123): require()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#4 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#9 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#14 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#15 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (99)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (8)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+2012/02/10 15:05:50 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php:99)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(123): require()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#4 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#9 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#14 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#15 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (99)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (8)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+2012/02/10 15:07:26 [error] [php] explode() expects parameter 2 to be string, array given (/Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php:99)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(123): require()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): ListViewBlock->renderInternal()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/widgets/CWidget.php(242): ListViewBlock->renderFile()
+#3 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(48): ListViewBlock->render()
+#4 /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php(38): ListViewBlock->renderContent()
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ListViewBlock->run()
+#6 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): BlockRenderWidget->widget()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#9 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(69): SiteController->widget()
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): SiteController->renderInternal()
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): SiteController->renderFile()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#14 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): SiteController->render()
+#15 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): SiteController->renderPageSlug()
+#16 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): SiteController->runAction()
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): SiteController->filterRights()
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#26 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CWebApplication->run()
+REQUEST_URI=/sample/frontend/index-test.php
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (99)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/listview_block_output.php (8)
+in /Applications/MAMP/htdocs/sample/common/front_blocks/listview/ListViewBlock.php (48)
+2012/02/10 15:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:08:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:09:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:15:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:15:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/ehe
+2012/02/10 15:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehehehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/index-test.php/ehehehe
+2012/02/10 15:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('mytry')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/mytry
+2012/02/10 15:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('mytry')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/mytry
+2012/02/10 15:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('mytry')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/mytry
+2012/02/10 15:25:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Oops! Page not found!' in /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('ehehehe')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#14 {main} REQUEST_URI=/sample/frontend/index-test.php/ehehehe
+2012/02/10 15:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:42:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/6/this-is-the-sample-post-number-2".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('post/6/this-is-...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/post/6/this-is-the-sample-post-number-2
+2012/02/10 15:56:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 15:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/view".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('post/view')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/post/6
+2012/02/10 16:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/6".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('post/6')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/post/6
+2012/02/10 16:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/6".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('post/6')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/post/6
+2012/02/10 16:08:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Page not found' in /Applications/MAMP/htdocs/sample/common/front_blocks/content_detail_view/ContentDetailViewBlock.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/sample/common/front_blocks/content_detail_view/ContentDetailViewBlock.php(32): ContentDetailViewBlock->renderContent()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): ContentDetailViewBlock->run()
+#2 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(56): CBaseController->widget('common.front_bl...', Array)
+#3 /Applications/MAMP/htdocs/gxc/core/cms1.0/widgets/BlockRenderWidget.php(30): BlockRenderWidget->renderContent()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(166): BlockRenderWidget->run()
+#5 /Applications/MAMP/htdocs/sample/common/front_layouts/default/main.php(70): CBaseController->widget('BlockRenderWidg...', Array)
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(119): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(866): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(779): CController->renderPartial('common.front_la...', Array, true)
+#10 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): CController->render('common.front_la...', Array)
+#11 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('post')
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(283): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#22 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#23 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#24 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#25 {main} REQUEST_URI=/sample/frontend/post?id=6&slug=this-is-the-sample-post-number-2
+2012/02/10 16:58:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 16:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:00:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:01:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico

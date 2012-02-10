@@ -119,6 +119,16 @@ class ConstantDefine{
                  self::CONTENT_LIST_CRITERIA_MOST_VIEWED_ALLTIME=>t("Most viewed all time"),                 
                 );
     }
+	
+	const CONTENT_LIST_RETURN_DATA_PROVIDER=1;
+	const CONTENT_LIST_RETURN_ACTIVE_RECORD=2;
+	
+	public static function getContentListReturnType(){
+        return array(
+                 self::CONTENT_LIST_RETURN_DATA_PROVIDER=>t("Data Provider"),                 
+                 self::CONTENT_LIST_RETURN_ACTIVE_RECORD=>t("Active Record"),                 
+                );
+    }
     
     /**
      * Constant related to Page

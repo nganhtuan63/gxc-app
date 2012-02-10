@@ -6,10 +6,10 @@ define('IMAGES_URL','http://http://localhost/sample/images');
 define('AVATAR_URL','http://http://localhost/sample/avatar');  
 define('SITE_NAME','GXC-CMS Demo TEST ZONE');
 define('SLOGAN','We build apps for better life experience');
-define('SITE_NAME_URL','http://localhost/sample/frontend');
+define('SITE_NAME_URL','http://localhost/sample/frontend/index-test.php');
 define('SUPPORT_EMAIL','support@localhost');
-define('FRONT_SITE_URL','http://localhost/sample/frontend');
-define('BACKEND_SITE_URL','http://localhost/sample/backend');
+define('FRONT_SITE_URL','http://localhost/sample/frontend/index-test.php');
+define('BACKEND_SITE_URL','http://localhost/sample/backend/index-test.php');
 
 
 define('USER_SALT','sdad12313ssgdpahcxrwwqas');

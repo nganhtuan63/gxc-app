@@ -49,7 +49,8 @@ class SiteController extends FeController
 		 */
 		public function actionError()
 		{
-	                parent::error();
+	              	
+	              parent::error();
 		}
 
 

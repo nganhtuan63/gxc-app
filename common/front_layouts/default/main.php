@@ -63,10 +63,12 @@
 					<img src="<?php echo $layout_asset; ?>/images/nhatrang.png" width="900px" />
 				</div>	
 				
-				<div class="inner_content">					
+				<div class="inner_content">				
+					<div class="info wide">	
 					<?php 
 					//Render Widget for Content Region
 					$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'1','layout_asset'=>$layout_asset)); ?>
+					</div>
 				</div>
 				
 				<div class="footer_content">					

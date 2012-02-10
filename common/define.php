@@ -1,14 +1,15 @@
 <?php 
+
 //You need to re edit for your site information here
 define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
-define('IMAGES_URL','http://images.gxcsolutions.com');  
-define('AVATAR_URL','http://avatar.gxcsolutions.com');  
-define('SITE_NAME','GXC-CMS Demo Website');
+define('IMAGES_URL','http://http://localhost/sample/images');  
+define('AVATAR_URL','http://http://localhost/sample/avatar');  
+define('SITE_NAME','GXC-CMS Demo TEST ZONE');
 define('SLOGAN','We build apps for better life experience');
-define('SITE_NAME_URL','demo-frontend.gxcsolutions.com');
-define('SUPPORT_EMAIL','support@gxcsolutions.com');
-define('FRONT_SITE_URL','http://demo-frontend.gxcsolutions.com');
-define('BACKEND_SITE_URL','http://demo-backend.gxcsolutions.com');
+define('SITE_NAME_URL','http://localhost/sample/frontend/index-test.php');
+define('SUPPORT_EMAIL','support@localhost');
+define('FRONT_SITE_URL','http://localhost/sample/frontend/index-test.php');
+define('BACKEND_SITE_URL','http://localhost/sample/backend/index-test.php');
 
 
 define('USER_SALT','sdad12313ssgdpahcxrwwqas');
