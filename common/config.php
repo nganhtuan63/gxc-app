@@ -35,6 +35,7 @@ return array(
         'cmswidgets.*',    
         'cmswidgets.object.*',                
         'cms.models.object.*',
+        'cms.models.resource.*',
         'cms.models.page.*',
             
         //Import Common Classes                    
@@ -42,6 +43,7 @@ return array(
         'common.extensions.*',
         'common.models.*',                        
         'common.modules.*',
+        'common.storages.*',
                 
         //Translate Module
         'cms.modules.translate.TranslateModule',

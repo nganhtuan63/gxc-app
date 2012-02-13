@@ -12,11 +12,36 @@
 class ConstantDefine{
     	
 	
+	/**
+     * Constant related to Upload File Size
+     */   
+	const UPLOAD_MAX_SIZE=10485760; //10mb
+    const UPLOAD_MIN_SIZE=1; //1 byte
+    
+    public static function fileTypes(){
+        return array(
+            'image'=>array('jpg','gif','png','bmp','jpeg'),
+            'audio'=>array('mp3','wma','wav'),
+            'video'=>array('flv','wmv','avi','mp4','mov','3gp')            
+            );
+    }
+	
+	public static function chooseFileTypes(){
+		return array(
+			'auto'=>t('Auto detect'),
+			'image'=>t('Image'),
+			'video'=>t('Video'),
+			'audio'=>t('Audio'),
+			'file'=>t('File'),
+		);
+	}
+	
+	
+    
     /**
      * Constant related to User
      */
-    const USER_ERROR_NOT_ACTIVE=3;
-    
+    const USER_ERROR_NOT_ACTIVE=3;    
     const USER_STATUS_DISABLED=0;
     const USER_STATUS_ACTIVE=1;
     
@@ -187,6 +212,9 @@ class ConstantDefine{
             self::AVATAR_SIZE_23=>t("23"),
             self::AVATAR_SIZE_96=>t("96"));
     }
+	
+	
+	
     
 }
 

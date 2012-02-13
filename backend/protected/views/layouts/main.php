@@ -118,8 +118,8 @@
 						)),
 					array('label'=>'<span id="menu_resource" class="micon"></span>'.t('Resource'), 'url'=>'javascript:void(0);','linkOptions'=>array('id'=>'menu_4','class'=>'menu_4'), 'itemOptions'=>array('id'=>'menu_4'), 
 					       'items'=>array(
-						array('label'=>t('Create Resource'), 'url'=>array('/resource/create')),
-						array('label'=>t('Manage Resource'), 'url'=>array('/resource/admin'),
+						array('label'=>t('Create Resource'), 'url'=>array('/beresource/create')),
+						array('label'=>t('Manage Resource'), 'url'=>array('/beresource/admin'),
 						     'active'=> ((Yii::app()->controller->id=='resource') && (in_array(Yii::app()->controller->action->id,array('update','view','admin','index')))) ? true : false)
 						
 					    )),
