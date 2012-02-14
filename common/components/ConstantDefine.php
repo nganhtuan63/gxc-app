@@ -22,7 +22,8 @@ class ConstantDefine{
         return array(
             'image'=>array('jpg','gif','png','bmp','jpeg'),
             'audio'=>array('mp3','wma','wav'),
-            'video'=>array('flv','wmv','avi','mp4','mov','3gp')            
+            'video'=>array('flv','wmv','avi','mp4','mov','3gp'),
+            'file'=>array('*'),           
             );
     }
 	

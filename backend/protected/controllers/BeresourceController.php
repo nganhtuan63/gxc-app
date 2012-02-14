@@ -25,7 +25,7 @@ class BeresourceController extends BeController{
 	 * 
 	 */
 	public function actionCreate()
-	{                
+	{		                
 		$this->render('resource_create');
 	}
         
@@ -79,7 +79,7 @@ class BeresourceController extends BeController{
 	 */
 	public function actionDelete($id)
 	{                            
-             GxcHelpers::deleteModel('Menu', $id);          
+          GxcHelpers::deleteModel('Resource', $id);          
 	}
                     
 }

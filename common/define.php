@@ -2,7 +2,7 @@
 
 //You need to re edit for your site information here
 define('APP_TIMEZONE','Asia/Ho_Chi_Minh');
-define('IMAGES_URL','http://localhost/sample/images');  
+define('RESOURCE_URL','http://localhost/sample/resources');  
 define('AVATAR_URL','http://localhost/sample/avatar');  
 define('SITE_NAME','GXC-CMS Demo');
 define('SLOGAN','We build apps for better life experience');

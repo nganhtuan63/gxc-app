@@ -216,19 +216,25 @@ function gen_uuid($len=8) {
 }
 
 
-function get_subfolders_name($path){
+function get_subfolders_name($path,$file=false){
     
-    $list_folders=array();
-    
+    $list=array();    
     $results = scandir($path);
-    foreach ($results as $result) {
+    foreach ($results as $result) {    	
         if ($result === '.' or $result === '..' or $result === '.svn') continue;
-        if (is_dir($path . '/' . $result)) {
-            $list_folders[]=trim($result);
-        }
+		if(!$file) {
+	        if (is_dir($path . '/' . $result)) {
+	            $list[]=trim($result);
+	        }
+	    }
+		else {			
+			if (is_file($path . '/' . $result)) {
+	            $list[]=trim($result);
+	        }
+	    }
     }
     
-    return $list_folders;
+    return $list;
 }
 
 

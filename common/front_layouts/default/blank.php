@@ -16,9 +16,7 @@
 			$layout_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.front_layouts.default.assets'), false, -1, false);
     ?>
         
-    <link rel="shortcut icon" href="<?php echo $layout_asset; ?>/images/favicon.ico" type="image/x-icon" />        
-    <link rel="stylesheet" type="text/css" href="<?php echo $layout_asset; ?>/css/screen.css" media="screen" />    
-             
+    <link rel="shortcut icon" href="<?php echo $layout_asset; ?>/images/favicon.ico" type="image/x-icon" />            
     <link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/screen.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/print.css" type="text/css" media="print" />
     <!--[if IE]><link rel="stylesheet" href="<?php echo $layout_asset; ?>/css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
@@ -62,8 +60,6 @@
 			
 			</div>	
 		</div>
-	</body>
-</html>		
 	<?php 
 		//Render Widget for Footer Script
 		$this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'4','layout_asset'=>$layout_asset)); 
