@@ -39,7 +39,9 @@ class LocalStorage
 	  		$filename=$resource->resource_name=$model->upload->name;			
 			if(settings()->get('system','keep_file_name_upload')=='0'){				
 				$filename=gen_uuid();	
-			} 
+			} else {
+				$filename=str_repeat(" ","-",$filename);
+			}
 			
 			// folder for uploaded files
 			$folder=date('Y').DIRECTORY_SEPARATOR.date('m').DIRECTORY_SEPARATOR; 
