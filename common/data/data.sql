@@ -701,3 +701,27 @@ CREATE TABLE `gxc_user_meta` (
 -- Dumping data for table `gxc_user_meta`
 --
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gxc_resource`
+--
+
+CREATE TABLE `gxc_resource` (
+  `resource_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `resource_name` varchar(255) DEFAULT '',
+  `resource_body` text,
+  `resource_path` varchar(255) DEFAULT '',
+  `resource_type` varchar(50) DEFAULT NULL,
+  `created` int(11) DEFAULT '0',
+  `updated` int(11) DEFAULT '0',
+  `creator` bigint(20) NOT NULL,
+  `where` varchar(50) NOT NULL,
+  PRIMARY KEY (`resource_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
+
+--
+-- Dumping data for table `gxc_resource`
+--
+
+
