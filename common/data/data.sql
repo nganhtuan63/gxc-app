@@ -148,12 +148,11 @@ CREATE TABLE `gxc_block` (
   `updated` int(11) NOT NULL,
   `params` text NOT NULL,
   PRIMARY KEY (`block_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `gxc_block`
 --
-
 
 INSERT INTO `gxc_block` VALUES(1, 'Logo and Info Block', 'logo_info', 1328776042, 1, 1328776042, 'a:0:{}');
 INSERT INTO `gxc_block` VALUES(2, 'Introduce Block - This is a simple HTML Block', 'html', 1328778200, 1, 1328863645, 'a:1:{s:4:"html";s:568:"\r\n<h2>About Us &amp; Our Mission</h2>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis lacus. Quisque aliquam facilisis augue, et viverra mauris pellentesque sed. Quisque ut nibh at eros commodo auctor nec eu augue. Vivamus dignissim sollicitudin aliquet. Vivamus sed commodo turpis. Fusce tempor euismod accumsan. Nunc non tincidunt dui. Vestibulum bibendum ligula nec enim lobortis et euismod arcu gravida. Aenean blandit turpis id libero varius hendrerit. Nunc vitae malesuada elit. Nam sit amet arcu vel eros commodo euismod.</p>\r\n\r\n";}');
@@ -161,6 +160,7 @@ INSERT INTO `gxc_block` VALUES(3, 'Footer Block - Just a simple HTML Block', 'ht
 INSERT INTO `gxc_block` VALUES(4, 'This is a sample of a content list render Block', 'listview', 1328781868, 1, 1328861471, 'a:2:{s:12:"content_list";a:1:{i:0;s:1:"1";}s:12:"display_type";s:1:"0";}');
 INSERT INTO `gxc_block` VALUES(5, 'Error Notification Block', 'error_notification', 1328862233, 1, 1328862233, 'a:0:{}');
 INSERT INTO `gxc_block` VALUES(6, 'Content detail view ', 'content_detail_view', 1328863997, 1, 1328863997, 'a:0:{}');
+INSERT INTO `gxc_block` VALUES(7, 'Div class clear Both Block', 'html', 1328979146, 1, 1328979146, 'a:1:{s:4:"html";s:30:"<div style="clear:both"></div>";}');
 
 
 -- --------------------------------------------------------
@@ -428,14 +428,15 @@ CREATE TABLE `gxc_page_block` (
 -- Dumping data for table `gxc_page_block`
 --
 
-INSERT INTO `gxc_page_block` VALUES(1, 2, 1, 1, 1);
-INSERT INTO `gxc_page_block` VALUES(1, 3, 1, 1, 2);
 INSERT INTO `gxc_page_block` VALUES(1, 4, 2, 1, 1);
+INSERT INTO `gxc_page_block` VALUES(1, 2, 1, 1, 1);
 INSERT INTO `gxc_page_block` VALUES(1, 1, 1, 1, 0);
+INSERT INTO `gxc_page_block` VALUES(1, 7, 3, 1, 1);
 INSERT INTO `gxc_page_block` VALUES(2, 5, 1, 1, 1);
 INSERT INTO `gxc_page_block` VALUES(3, 6, 1, 1, 1);
 INSERT INTO `gxc_page_block` VALUES(3, 1, 1, 1, 0);
 INSERT INTO `gxc_page_block` VALUES(3, 3, 1, 1, 2);
+INSERT INTO `gxc_page_block` VALUES(1, 3, 1, 1, 2);
 
 
 -- --------------------------------------------------------
@@ -485,6 +486,7 @@ INSERT INTO `gxc_settings` VALUES(13, 'general', 'homepage', 's:4:"home";');
 INSERT INTO `gxc_settings` VALUES(14, 'general', 'slogan', '{{SLOGAN}}');
 INSERT INTO `gxc_settings` VALUES(15, 'general', 'post_link', 's:4:"post";');
 INSERT INTO `gxc_settings` VALUES(16, 'general', 'error_link', 's:5:"error";');
+INSERT INTO `gxc_settings` VALUES(17, 'system', 'keep_file_name_upload', 's:1:"0";');
 
 
 
