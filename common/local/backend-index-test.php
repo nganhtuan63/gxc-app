@@ -1,9 +1,9 @@
 <?php
 
 // remove the following lines when in production mode
-defined('YII_DEBUG') or define('YII_DEBUG',true);
+//defined('YII_DEBUG') or define('YII_DEBUG',true);
 // specify how many levels of call stack should be shown in each log message
-defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+//defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 // Set the constant for the FRONT_STORE Directory
 // Don't change if you are not sure
@@ -24,11 +24,13 @@ define('FRONT_STORE',dirname(dirname(__FILE__)));
 define('BACK_END',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend'.DIRECTORY_SEPARATOR.'protected');
 define('BACK_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend');
 
+
+
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
 $define=COMMON_FOLDER.'/define-test.php';
-$config=FRONT_END.'/config/main.php';
+$config=BACK_END.'/config/test.php';
 
 
 require_once($yii);

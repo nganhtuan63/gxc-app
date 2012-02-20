@@ -24,12 +24,13 @@ define('FRONT_STORE',dirname(dirname(__FILE__)));
 define('BACK_END',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend'.DIRECTORY_SEPARATOR.'protected');
 define('BACK_STORE',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'backend');
 
+
+
 // change the following paths if necessary
 $yii=CORE_FOLDER.'/yii/framework/yii.php';
 $globals=COMMON_FOLDER.'/globals.php';
 $define=COMMON_FOLDER.'/define-test.php';
-
-$config=FRONT_END.'/config/main.php';
+$config=FRONT_END.'/config/test.php';
 
 
 require_once($yii);
