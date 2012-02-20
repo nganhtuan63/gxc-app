@@ -1,9 +1,7 @@
 <?php
 
 class EventObject extends Object {
-
-
-	const DETAIL_VIEW_SLUG='post';
+	
 	
 	public $start_date;
 	public $end_date;
@@ -70,11 +68,11 @@ class EventObject extends Object {
 	protected function afterSave() {
 		parent::afterSave();
 		if ($this -> isNewRecord) {
-			Object::saveMetaValue('start_date', $this -> start_date, $this, true);
-			Object::saveMetaValue('end_date', $this -> end_date, $this, true);
+			Object::saveMetaValue('start_date', $this->start_date, $this, true);
+			Object::saveMetaValue('end_date', $this->end_date, $this, true);
 		} else {
-			Object::saveMetaValue('start_date', $this -> start_date, $this, false);
-			Object::saveMetaValue('end_date', $this -> end_date, $this, false);
+			Object::saveMetaValue('start_date', $this->start_date, $this, false);
+			Object::saveMetaValue('end_date', $this->end_date, $this, false);
 		}
 	}
 

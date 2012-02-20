@@ -20,7 +20,7 @@ class BeresourceController extends BeController{
 		 
 	}
                  
-        /**
+    /**
 	 * The function that do Create new Resource
 	 * 
 	 */
@@ -29,6 +29,17 @@ class BeresourceController extends BeController{
 		$this->render('resource_create');
 	}
         
+		
+	/**
+	 * The function that do Create new Resource
+	 * 
+	 */
+	public function actionCreateFrame()
+	{
+		$this->layout='clean';		                
+		$this->render('resource_create');
+	}
+        	
        
         
         /**

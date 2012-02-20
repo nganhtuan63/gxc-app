@@ -3,7 +3,7 @@
 class ArticleObject extends Object
 {
 	
-	const DETAIL_VIEW_SLUG='post';
+	
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -55,7 +55,7 @@ class ArticleObject extends Object
 		return Object::extraSearch($this);
 	}
         
-        protected function beforeSave()
+    protected function beforeSave()
 	{
 		if(parent::beforeSave())
 		{
@@ -73,12 +73,23 @@ class ArticleObject extends Object
 		else
 			return false;
 	}
-        
-        public static function Resources(){
-              return Object::Resources();
-        }
-        
-        public static function Permissions(){
-              return Object::Permissions();
-        }
+    
+    public static function Resources(){
+    	
+			return CMap::mergeArray(Object::Resources(),
+				array(                      		   	                  
+					'video'=>array('type'=>'video',
+		              'name'=>'Video',
+		              'maxSize'=>ConstantDefine::UPLOAD_MAX_SIZE, 
+		              'minSize'=>ConstantDefine::UPLOAD_MIN_SIZE,
+		              'max'=>1,
+		              'allow'=>array('flv',
+		                             'mp4',)))
+			);
+           
+    }
+    
+    public static function Permissions(){
+          return Object::Permissions();
+    }
 }

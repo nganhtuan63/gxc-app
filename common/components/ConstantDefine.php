@@ -23,6 +23,7 @@ class ConstantDefine{
             'image'=>array('jpg','gif','png','bmp','jpeg'),
             'audio'=>array('mp3','wma','wav'),
             'video'=>array('flv','wmv','avi','mp4','mov','3gp'),
+            'flash'=>array('swf'),
             'file'=>array('*'),           
             );
     }
