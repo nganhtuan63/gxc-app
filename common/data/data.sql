@@ -340,11 +340,13 @@ CREATE TABLE `gxc_object_meta` (
 -- Table structure for table `gxc_object_resource`
 --
 
+
 CREATE TABLE `gxc_object_resource` (
   `object_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `resource_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `resource_order` int(11) NOT NULL DEFAULT '0',
   `description` longtext,
+  `type` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`object_id`,`resource_id`),
   KEY `resource_id` (`resource_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -678,7 +680,7 @@ CREATE TABLE `gxc_user` (
 -- Dumping data for table `gxc_user`
 --
 
-INSERT INTO `gxc_user` VALUES(1, 'admin', 'admin', 'Admin', '{{password}}', '{{password_salt}}', 'admin@localhost.com', NULL, 1, {{time}}, {{time}}, {{time}}, '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, NULL);
+INSERT INTO `gxc_user` VALUES(1, 'admin', 'admin', 'Admin', '{{password}}', '{{password_salt}}', 'admin@localhost.com', NULL, 1, UNIX_TIMESTAMP(), UNIX_TIMESTAMP(), UNIX_TIMESTAMP(), '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, NULL);
 
 
 -- --------------------------------------------------------
