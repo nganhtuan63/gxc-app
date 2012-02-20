@@ -15,10 +15,12 @@ class LocalStorage
 	  
 	  public $max_file_size=ConstantDefine::UPLOAD_MAX_SIZE;
 	  public $min_file_size=ConstantDefine::UPLOAD_MIN_SIZE;
+	  public $allow_types=array();
 	  
-	  public function __construct($max_file_size=ConstantDefine::UPLOAD_MAX_SIZE,$min_file_size=ConstantDefine::UPLOAD_MIN_SIZE) {
+	  public function __construct($max_file_size=ConstantDefine::UPLOAD_MAX_SIZE,$min_file_size=ConstantDefine::UPLOAD_MIN_SIZE,$allow_types=array()) {
 	  		$this->max_file_size=$max_file_size;
 			$this->min_file_size=$min_file_size;
+			$this->allow_types=$allow_types;
 	  }
 	  	
 	  public function UploadFile(&$resource,$model,&$process,&$message,$remote=false){
@@ -36,6 +38,14 @@ class LocalStorage
 				$process=false;
 				return false;
 			} 
+			
+			if(count($this->allow_types)>0){
+				if(!in_array(strtolower(CFileHelper::getExtension($model->upload->name)), $this->allow_types)){
+					$model->addError('upload', t('File extension is not allowed!'));
+					$process=false;
+					return false;
+				}
+			}
 	  		$filename=$resource->resource_name=$model->upload->name;			
 			if(settings()->get('system','keep_file_name_upload')=='0'){				
 				$filename=gen_uuid();	
@@ -73,7 +83,15 @@ class LocalStorage
 	  }
 
 	  public function getRemoteFile(&$resource,$model,&$process,&$message,$path,$ext,$changeresname=true){
-	  				  			
+			
+			if(count($this->allow_types)>0){
+				if(!in_array(strtolower($ext), $this->allow_types)){
+					$message=t('File extension is not allowed!');
+					$process=false;
+					return false;
+				}
+			}
+				  				  			
 	  		$ch = curl_init($path);
 			curl_setopt($ch,CURLOPT_HEADER,0);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

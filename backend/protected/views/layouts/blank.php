@@ -16,11 +16,8 @@
         ?>
 </head>
 <body>
-<div class="container" id="page" style="text-align:center">
-	
-            	<?php echo $content; ?>
-	
-
+<div class="container" id="page" style="text-align:center">	
+            	<?php echo $content; ?>	
 </div><!-- page -->
  
 </body>
