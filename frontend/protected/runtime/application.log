@@ -4862,3 +4862,43 @@ Stack trace:
 #1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
 #3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/10 17:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8e9e053e/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('assets/8e9e053e...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(38): CApplication->run()
+#3 {main} REQUEST_URI=/sample/frontend/assets/8e9e053e/images/favicon.ico
+2012/02/15 15:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beobject/create/type/article".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject/create...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/backend/beobject/create/type/article
+HTTP_REFERER=http://localhost/sample/backend/beobject/create
+---
+2012/02/15 15:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beobject/create/type/article".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject/create...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/backend/beobject/create/type/article
+---
+2012/02/15 15:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beobject/create".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject/create')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/backend/beobject/create
+HTTP_REFERER=http://localhost/sample/backend/index-test.php
+---
+2012/02/15 15:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beobject/create".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject/create')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/backend/beobject/create
+---
