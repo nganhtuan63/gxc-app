@@ -1,4 +1,5 @@
 <?php
+Yii::setPathOfAlias('core.gii', GII_MODULE);
 
 return CMap::mergeArray(
 	 require(COMMON_FOLDER.'/config.php'),
@@ -43,6 +44,7 @@ return CMap::mergeArray(
 						'password'=>'123456',
 					 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 						'ipFilters'=>array('127.0.0.1','::1'),
+						'generatorPaths'=>array('core.gii',),
 					),				          		   
 			    ),
 	)
