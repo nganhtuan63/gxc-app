@@ -9,6 +9,7 @@ Yii::setPathOfAlias('cmswidgets',CMS_WIDGETS);
 
 return array(
 	
+	'id'=> SITE_NAME,
 	//Edit more information for your site here
 	'name'=> SITE_NAME ,        
     'sourceLanguage'=>'en_us',

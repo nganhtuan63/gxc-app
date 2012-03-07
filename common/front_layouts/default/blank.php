@@ -4,7 +4,7 @@
 	else 
 		$layout_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('common.front_layouts.default.assets'), false, -1, false);
 ?>
-<?php $this->render('common.front_layouts.default.header',array('page'=>$page,'layout_asset'=>$layout_asset)); ?>    
+<?php $this->renderPartial('common.front_layouts.default.header',array('page'=>$page,'layout_asset'=>$layout_asset)); ?>    
 	<body>
 		<div class="container" id="container">
 			<div class="span-24" id="content">
