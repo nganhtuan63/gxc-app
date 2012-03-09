@@ -125,11 +125,12 @@
 					    )),
 						array('label'=>'<span id="menu_manage" class="micon"></span>'.t('Manage'), 'url'=>'javascript:void(0);','linkOptions'=>array('id'=>'menu_5','class'=>'menu_5'), 'itemOptions'=>array('id'=>'menu_5'), 
 					       'items'=>array(
-						array('label'=>t('Comments'), 'url'=>array('/comments/admin'),'active'=>Yii::app()->controller->id=='comments' ? true : false),
+						//array('label'=>t('Comments'), 'url'=>array('/comments/admin'),'active'=>Yii::app()->controller->id=='comments' ? true : false),
+			       		array('label'=>t('Comment'), 'url'=>array('/becomment/admin'),
+			       				'active'=> ((Yii::app()->controller->id=='becomment') && (in_array(Yii::app()->controller->action->id,array('update','view','admin','index')))) ? true : false),
 						//array('label'=>'Like/Rating', 'url'=>array('/like/admin')),
 						//array('label'=>'Survey', 'url'=>array('/survey/admin')),
-						     
-						
+			
 					    )),
 					array('label'=>'<span id="menu_user" class="micon"></span>'.t('User'), 'url'=>'javascript:void(0);','linkOptions'=>array('id'=>'menu_6','class'=>'menu_6'), 'itemOptions'=>array('id'=>'menu_6'), 
 					       'items'=>array(
