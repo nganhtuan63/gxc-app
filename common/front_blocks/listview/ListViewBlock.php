@@ -85,6 +85,7 @@ class ListViewBlock extends CWidget
         	$condition = 't.object_status = :status and t.object_date < :time';
         	$params = array(':status'=>ConstantDefine::OBJECT_STATUS_PUBLISHED, ':time'=>time()) ;
 			
+			
 			                    
         	if (isset($model)) {
             	if ($model->type == ConstantDefine::CONTENT_LIST_TYPE_AUTO) {    //auto
@@ -111,7 +112,7 @@ class ListViewBlock extends CWidget
 	                    if ($content_terms[0] != '0') {	                        
 	                        $condition .= ' AND (0';
 	                        foreach ($content_terms as $term) {
-	                            $condition .= ' or (ID in (select object_id from `{{object_term}}` where term_id='.$term.'))';
+	                            $condition .= ' or (object_id in (select object_id from `{{object_term}}` where term_id='.$term.'))';
 	                        }
 	                        $condition .= ')';    
 	                    }    
@@ -162,42 +163,49 @@ class ListViewBlock extends CWidget
                                         ));
             }
 
+			else {
+				//manual
+	            if (isset($model->manual_list)) {
+	            						
+	                $condition = '';
+	                $manual_list = $model->manual_list;
+	                $count = 0;
+					
+	                foreach ($manual_list as $manual_id) {	                    
+	                    if ($count == 0) {
+	                        $condition_string = $manual_id;
+	                    } else 
+	                        $condition_string .= ','.$manual_id;
+	                    if (isset($max) && $count == $max)
+	                       break;
+	                    $count++;
+	                }
+					$condition = 'object_id IN ('.$condition_string.')';
 
-            //manual
-            if (isset($model->manual_list_id)) {
-                $condition = '';
-                $manual_list = explode(',',$model->manual_list_id);
-                $count = 0;
-                foreach ($manual_list as $manual_id) {
-                    //$condition .= ' OR ID = '.$manual_id;
-                    if ($count == 0) {
-                        $condition = 'ID ='.$manual_id;
-                    } else 
-                        $condition .= ' union select * from {{object}} where id='.$manual_id;
-                    if (isset($max) && $count == $max)
-                       break;
-                    $count++;
-                }
-                if ($return_type == ConstantDefine::CONTENT_LIST_RETURN_DATA_PROVIDER && count($manual_list)>1) { 
-		
-                    return new CActiveDataProvider('Object',array(
-                               'criteria'=>array(
-                                       'condition'=>$condition,
-                                       'params'=>$params
-                               ),
-                               'pagination'=>array(
-                                       'pageSize'=>isset($max)?$max:$model->number*$model->paging, 
-                                       'pageVar'=>'page'
-                               ),
-                           ));
-                } 
-                
-                
-                return Object::model()->findAll(array(
-                                        'condition'=>$condition,                                        
-                                        'params'=>$params
-                                        ));
-            }
+	                if ($return_type == ConstantDefine::CONTENT_LIST_RETURN_DATA_PROVIDER && count($manual_list)>1) { 
+			
+	                    return new CActiveDataProvider('Object',array(
+	                               'criteria'=>array(	                               		   
+	                                       'condition'=>$condition,
+	                                       'params'=>$params,
+	                                       'order'=>'FIND_IN_SET (object_id, "'.$condition_string.'")'
+	                               ),
+	                               'pagination'=>array(
+	                                       'pageSize'=>isset($max)?$max:$model->number*$model->paging, 
+	                                       'pageVar'=>'page'
+	                               ),
+	                           ));
+	                } 
+	                
+	                
+	                return Object::model()->findAll(array(	                						
+	                                        'condition'=>$condition,                                        
+	                                        'params'=>$params,
+	                                        'order'=>'FIND_IN_SET (object_id, "'.$condition_string.'")'
+	                                        ));
+	            }
+			}
+            
         }   
 
 		return null;              
