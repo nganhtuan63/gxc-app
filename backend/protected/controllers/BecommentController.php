@@ -42,11 +42,20 @@ class BecommentController extends BeController
 	public function actionAdmin()
 	{
 		//Check the object id
-		$object_id=isset($_GET['object_id']) ? (int) ($_GET['object_id']) : 0 ;
+		/*$object_id=isset($_GET['object_id']) ? (int) ($_GET['object_id']) : 0 ;
 		
-		$this->render('comment_admin',array(
-							'type'=>0,
-							'object_id'=>$object_id));
+		if($object_id!= 0)
+		{
+			$this->render('comment_admin',array(
+					'type'=>0,
+					'object_id'=>$object_id));
+		}
+		else 
+		{
+			$this->render('comment_admin',array('type'=>0,);
+		}*/
+		$this->render('comment_admin',array('type'=>0);
+		
 	}
 
 	/**
