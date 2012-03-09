@@ -55,7 +55,10 @@ class BeobjectController extends BeController
               $this->menu=array_merge($this->menu,                       
                         array(
                             array('label'=>t('Update this content'), 'url'=>array('update','id'=>$id),'linkOptions'=>array('class'=>'button')),
-                            array('label'=>t('View this content'), 'url'=>array('view','id'=>$id),'linkOptions'=>array('class'=>'button'))
+                            array('label'=>t('View this content'), 'url'=>array('view','id'=>$id),'linkOptions'=>array('class'=>'button')),
+                            //QNT added for manage all comments of the current content
+                            array('label'=>t('Manage comments'), 'url'=>array('becomment/admin','object_id'=>$id),'linkOptions'=>array('class'=>'button')),
+                            //end QNT
                         )
                     );
 		$this->render('object_view');

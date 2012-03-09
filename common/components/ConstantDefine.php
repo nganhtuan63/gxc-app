@@ -219,8 +219,24 @@ class ConstantDefine{
             self::AVATAR_SIZE_96=>t("96"));
     }
 	
-	
-	
+    //QNT added
+	/**
+     * Constant related to Comment
+     * 
+     */
+    
+    const COMMENT_STATUS_PUBLISHED=1;
+    const COMMENT_STATUS_PENDING=2;
+    const COMMENT_STATUS_DISCARDED=3;
+    
+    public static function getCommentStatus(){
+        return array(
+                 self::COMMENT_STATUS_PUBLISHED=>t("Published"),
+                 self::COMMENT_STATUS_PENDING=>t("Pending"),
+                 self::COMMENT_STATUS_DISCARDED=>t("Discarded")
+                );
+    }
+	//end QNT
     
 }
 
