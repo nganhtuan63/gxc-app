@@ -726,4 +726,29 @@ CREATE TABLE `gxc_resource` (
 -- Dumping data for table `gxc_resource`
 --
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gxc_comment`
+--
+
+
+CREATE TABLE `gxc_comment` (
+  `comment_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `object_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `topic` varchar(256) NOT NULL,
+  `content` longtext NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `author_name` varchar(128) NOT NULL,
+  `email` varchar(128) NOT NULL,
+  `create_time` int(11) NOT NULL,
+  PRIMARY KEY (`comment_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `gxc_comment`
+--
+
+INSERT INTO `gxc_comment`
+VALUES ('7', 'Comment 1', 'Comment 1', '1', 'Nguyen Tuan Quyen', 'nguyen.tuan.quyen.it@gmail.com', '1328755632');
 
