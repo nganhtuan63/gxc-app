@@ -1,8 +1,9 @@
 <div class="wide">
 	<p style="margin-top:0">
-		<strong><?php echo CHtml::encode($data->topic); ?></strong>
-		<span><?php echo date("m/d/Y H:i", $data->create_time); ?></span>
+		<strong><?php echo $data->author_name. '  -  ' . $data->topic;
+		 ?></strong>
+		<br /><span><?php echo date("m/d/Y H:i", $data->create_time); ?></span>
 		<br />
-		<?php echo CHtml::encode($data->content); ?>
+		<?php echo $data->content; ?>
 	</p>
 </div>

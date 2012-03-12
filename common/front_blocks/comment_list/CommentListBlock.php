@@ -65,20 +65,33 @@ class CommentListBlock extends CWidget
 	return true;
     }
 	
+    /**
+     * Get the comment list of the object given by the $object_id
+     * @param int $object_id
+     * @return CActiveDataProvider
+     */
     public static function getCommentList($object_id)
     {
-    	//Search for the PUBLISHED comments that belong to the $object_id
-    	$condition = 't.object_id = :object_id and t.status = :status';
-    	$params = array(
-    			':object_id'=>$object_id,
-    			':status'=>ConstantDefine::COMMENT_STATUS_PUBLISHED,);
-    	
-       	return new CActiveDataProvider('Comment',array(
-    			'criteria'=>array(
-    					'condition'=>$condition,
-    					'params'=>$params,
-    			),
-    	));
+    	//Verify whether the object given by the $object_id is allowed for comment
+    	$object = Object::model()->findByPk($object_id);
+    	if($object != null && $object->comment_status == ConstantDefine::OBJECT_ALLOW_COMMENT)
+    	{
+    		//Search for the PUBLISHED comments that belong to the $object_id
+    		$condition = 't.object_id = :object_id and t.status = :status';
+    		$params = array(
+    				':object_id'=>$object_id,
+    				':status'=>ConstantDefine::COMMENT_STATUS_PUBLISHED,);
+    		
+    		$dataProvider = new CActiveDataProvider('Comment',array(
+    				'criteria'=>array(
+    						'condition'=>$condition,
+    						'params'=>$params,
+    				),
+    		));
+    		return $dataProvider;
+    	}
+    	//return null if object not found or not allowed for comment
+    	return null;
     }
 	
 }
