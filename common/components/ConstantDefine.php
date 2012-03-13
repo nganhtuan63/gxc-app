@@ -103,19 +103,21 @@ class ConstantDefine{
     const TRANS_STATUS=3;
     
     
-    /**
+     /**
      * Constant related to Menu
      *         
      */
     const MENU_TYPE_PAGE=1;
     const MENU_TYPE_TERM=2;
-    const MENU_TYPE_URL=3;
+	const MENU_TYPE_CONTENT=5;
+    const MENU_TYPE_URL=3;	
     const MENU_TYPE_STRING=4;
     
     public static function getMenuType(){
         return array(
                  self::MENU_TYPE_URL=>t("Link to URL"),                 
                  self::MENU_TYPE_PAGE=>t("Link to Page"),
+                 self::MENU_TYPE_CONTENT=>t("Link to a Content Object"),
                  self::MENU_TYPE_TERM=>t("Link to a Term Page"),                                 
                  self::MENU_TYPE_STRING=>t("String"),
                 );

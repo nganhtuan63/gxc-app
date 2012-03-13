@@ -93,22 +93,31 @@ class BemenuitemController extends BeController{
              MenuItem::ajaxChangeOrder();
 	}
         
-        /**
-         * 
-         * This function is generate Menu Items based on Menu Id
-         */
-        public function actionDynamicParentMenuItem(){
-            $menu_id= (int) ($_POST['MenuItem']['menu_id']);
-            MenuItem::getMenuItemFromMenu($menu_id);
-        }
+    /**
+     * 
+     * This function is generate Menu Items based on Menu Id
+     */
+    public function actionDynamicParentMenuItem(){
+        $menu_id= (int) ($_POST['MenuItem']['menu_id']);
+        MenuItem::getMenuItemFromMenu($menu_id);
+    }
         
-         /**
+    /**
 	 * This function sugget the Pages
 	 * 
 	 */
 	public function actionSuggestPage()
 	{                
             Page::suggestPage();
+	}
+	
+	/**
+	 * This function sugget the Object Content
+	 * 
+	 */
+	public function actionSuggestContent()
+	{                
+          MenuItem::suggestContent();
 	}
         
          /**
