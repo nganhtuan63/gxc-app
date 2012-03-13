@@ -4902,3 +4902,99 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/sample/backend/beobject/create
 ---
+2012/02/23 20:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cecac963/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/cecac963...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/frontend/assets/cecac963/images/favicon.ico
+---
+2012/03/07 10:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cecac963/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/cecac963...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/frontend/assets/cecac963/images/favicon.ico
+---
+2012/03/07 10:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cecac963/images/favicon.ico".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/cecac963...')
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/sample/frontend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/sample/frontend/assets/cecac963/images/favicon.ico
+---
+2012/03/07 10:36:14 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "common.front_layouts.teg.main".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(783): CController->renderPartial('common.front_la...', Array, true)
+#1 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): CController->render('common.front_la...', Array)
+#2 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('home')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/sample/frontend/index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/sample/frontend/
+---
+2012/03/07 10:36:54 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "common.front_layouts.teg.main".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(783): CController->renderPartial('common.front_la...', Array, true)
+#1 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): CController->render('common.front_la...', Array)
+#2 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('home')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/sample/frontend/index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/sample/frontend/
+---
+2012/03/07 10:36:58 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "common.front_layouts.teg.main".' in /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(783): CController->renderPartial('common.front_la...', Array, true)
+#1 /Applications/MAMP/htdocs/gxc/core/cms1.0/components/FeController.php(56): CController->render('common.front_la...', Array)
+#2 /Applications/MAMP/htdocs/sample/frontend/protected/controllers/SiteController.php(36): FeController->renderPageSlug('home')
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/gxc/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Applications/MAMP/htdocs/gxc/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#14 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/sample/frontend/index-test.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/sample/frontend/index-test.php
+---
+2012/03/13 22:05:58 [error] [php] key_exists() [<a href='function.key-exists'>function.key-exists</a>]: The first argument should be either a string or an integer (/Applications/MAMP/htdocs/gxc/core/cms1.0/modules/translate/components/MPTranslate.php:200)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(388): MPTranslate->init()
+#1 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CModule.php(493): CWebApplication->getComponent()
+#2 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(146): CWebApplication->preloadComponents()
+#3 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(127): CWebApplication->__construct()
+#4 /Applications/MAMP/htdocs/gxc/core/yii/framework/YiiBase.php(100): createApplication()
+#5 /Applications/MAMP/htdocs/sample/frontend/index-test.php(41): createWebApplication()
+REQUEST_URI=/sample/frontend/index-test.phpsite/caching

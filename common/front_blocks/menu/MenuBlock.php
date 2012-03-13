@@ -35,15 +35,15 @@ class MenuBlock extends CWidget
  
     protected function renderContent()
     {
-	if(isset($this->block) && ($this->block!=null)){	        
-            $params=unserialize($this->block->params);
-	    $this->setParams($params);               
-            $menu_r0_items = self::getMenuItems(0,$this->menu_id);          
-            $this->render(BlockRenderWidget::setRenderOutput($this),array('menu_r0_items'=>$menu_r0_items,
-                ));
-	} else {
-	    echo '';
-	}
+		if (isset($this->block) && ($this->block!=null)) {	        
+	            $params=unserialize($this->block->params);
+		    	$this->setParams($params);               
+	            $menu_r0_items = self::getMenuItems(0,$this->menu_id);          
+	            $this->render(BlockRenderWidget::setRenderOutput($this),array('menus'=>$menu_r0_items,
+	                ));
+		} else {
+		    echo '';
+		}
        
     }
     
@@ -78,11 +78,16 @@ class MenuBlock extends CWidget
                               'params'=>array(':pid'=>$parent_id, ':mid'=>$menu_id),
                               'order'=>' t.order ASC ')
                         );
-        return $menu_items;
+		
+		$result = array();
+		foreach ($menu_items as $menu_item) {
+			$result[] = array('name'=>$menu_item->name, 'link'=>self::buildLink($menu_item));
+		}
+		
+        return $result;
     }
     
-    public static function findMenu(){
-    
+    public static function findMenu(){    
         $result=array();
         $menus=Menu::model()->findAll();
         if($menus){
@@ -95,7 +100,20 @@ class MenuBlock extends CWidget
     }
     
     public static function buildLink($item){
-        return '#';
+        switch ($item->type) {
+			case ConstantDefine::MENU_TYPE_URL:
+				return $item->value; 
+				break;
+			case ConstantDefine::MENU_TYPE_PAGE:
+				$page = Page::model()->findByAttributes(array('name'=>$item->value));
+				if ($page)
+					return SITE_NAME_URL.$page->slug;
+			case ConstantDefine::MENU_TYPE_TERM:
+			case ConstantDefine::MENU_TYPE_STRING:								
+			default :
+				return $item->value;
+				break;
+		}
     }
 }
 
