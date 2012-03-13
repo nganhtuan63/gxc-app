@@ -10,7 +10,7 @@ class SiteController extends FeController
          */
         public function allowedActions()
         {
-               return 'index,view,error,ajax';
+               return 'index,view,error,ajax,caching';
         }
         
         /**
@@ -51,6 +51,21 @@ class SiteController extends FeController
 		{
 	              	
 	              parent::error();
+		}
+		
+		/**
+		 * This is the action to Clear Cache
+		 */
+		public function actionCaching()
+		{
+				if($_POST['key']==FRONTEND_CLEAR_CACHE_KEY){
+					Yii::app()->cache->flush();
+					echo '1';				
+				}	              		            	 
+				else{
+					echo '0';										
+				}
+				Yii::app()->end();
 		}
 
 

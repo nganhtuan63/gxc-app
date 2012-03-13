@@ -148,6 +148,12 @@
                                          
                                         ),
                                             'visible'=>user()->isAdmin ? true : false,   
+                                        ),
+                       array('label'=>'<span id="menu_caching" class="micon"></span>'.t('Caching'), 'url'=>array('/becaching/clear'),'linkOptions'=>array('id'=>'menu_8','class'=>'menu_8'), 'itemOptions'=>array('id'=>'menu_8'), 
+                                           'items'=>array(
+                                             
+                                        ),
+                                            'visible'=>user()->isAdmin ? true : false,   
                                         )
 					
 				),

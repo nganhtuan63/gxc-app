@@ -14,3 +14,4 @@ define('BACKEND_SITE_URL','http://www.gxccms.com/demo/backend/index.php');
 
 define('USER_SALT','sdad12313ssgdpahcxrwwqas');
 define('USER_RECOVER_PASS_SALT','erc5cvm034ax403449');
+define('FRONTEND_CLEAR_CACHE_KEY','ads2312xxz23197532zcvv');
