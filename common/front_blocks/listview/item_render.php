@@ -1,5 +1,5 @@
 <?php  
-  $link = FRONT_SITE_URL."/".settings()->get('general', 'post_link')."?id=".$data->object_id."&slug=".$data->object_slug;
+  $link = $data->getObjectLink();
 ?>
 <div class="half">
 	<p style="margin-top:0">

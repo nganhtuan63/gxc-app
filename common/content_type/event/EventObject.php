@@ -84,4 +84,10 @@ class EventObject extends Object {
 		return Object::Permissions();
 	}
 
+	public static function buildLink($obj){						
+		if($obj->object_id)
+			return FRONT_SITE_URL."/event?id=".$obj->object_id."&slug=".$obj->object_slug;
+		else 
+			return null;
+	}
 }
