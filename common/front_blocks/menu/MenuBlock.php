@@ -37,14 +37,19 @@ class MenuBlock extends CWidget
     {
 		if (isset($this->block) && ($this->block!=null)) {	        
 	            $params=unserialize($this->block->params);
-		    	$this->setParams($params);               
-	            $menu_r0_items = self::getMenuItems(0,$this->menu_id);          
+		    	$this->setParams($params);   
+				$menu_r0_items=Yii::app()->cache->get('menu_r0_'.$this->menu_id);
+								
+				if($menu_r0_items===false){
+					$menu_r0_items = self::getMenuItems(0,$this->menu_id);      
+					Yii::app()->cache->set('menu_r0_'.$this->menu_id,$menu_r0_items,7200);	
+				}            
+	                
 	            $this->render(BlockRenderWidget::setRenderOutput($this),array('menus'=>$menu_r0_items,
 	                ));
 		} else {
 		    echo '';
-		}
-       
+		}       
     }
     
     public function validate(){	
@@ -81,9 +86,8 @@ class MenuBlock extends CWidget
 		
 		$result = array();
 		foreach ($menu_items as $menu_item) {
-			$result[] = array('name'=>$menu_item->name, 'link'=>self::buildLink($menu_item));
-		}
-		
+			$result[] = array('name'=>$menu_item->name, 'link'=>self::buildLink($menu_item),'id'=>$menu_item->menu_item_id);
+		}		
         return $result;
     }
     
@@ -107,9 +111,24 @@ class MenuBlock extends CWidget
 			case ConstantDefine::MENU_TYPE_PAGE:
 				$page = Page::model()->findByAttributes(array('name'=>$item->value));
 				if ($page)
-					return SITE_NAME_URL.$page->slug;
+					return FRONT_SITE_URL.'/'.$page->slug;
+				else {
+					return 'javascript:void(0);';	
+					}
+				break;
+			case ConstantDefine::MENU_TYPE_CONTENT:
+				$content = Object::model()->findByPk($item->value);
+				if ($content)
+					return $content->getObjectLink();
+				else {
+					return 'javascript:void(0);';	
+					}
+				break;
 			case ConstantDefine::MENU_TYPE_TERM:
-			case ConstantDefine::MENU_TYPE_STRING:								
+				break;
+			case ConstantDefine::MENU_TYPE_STRING:	
+				return $item->value;
+				break;							
 			default :
 				return $item->value;
 				break;
