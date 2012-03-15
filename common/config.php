@@ -185,8 +185,10 @@ return array(
                 
         //Enable Cookie Validation and Csrf Validation
         'request'=>array(
+            'class'=>'HttpRequest',
             'enableCookieValidation'=>true,
-            'enableCsrfValidation'=>true,
+            'enableCsrfValidation'=> true,
+            'noCsrfValidationRoutes'=>array('site/caching')
         ),
 	),
 

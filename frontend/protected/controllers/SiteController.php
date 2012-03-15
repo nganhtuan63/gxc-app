@@ -58,16 +58,18 @@ class SiteController extends FeController
 		 */
 		public function actionCaching()
 		{
-				if($_POST['key']==FRONTEND_CLEAR_CACHE_KEY){
-					Yii::app()->cache->flush();
-					echo '1';				
-				}	              		            	 
+										
+				if(isset($_POST['key'])){
+					if($_POST['key']==FRONTEND_CLEAR_CACHE_KEY){
+						Yii::app()->cache->flush();
+						echo '1';
+					}
+				}									              		            	 
 				else{
 					echo '0';										
 				}
-				Yii::app()->end();
+				
 		}
-
 
 	
 }
