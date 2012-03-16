@@ -481,4 +481,9 @@ function recursive_remove_directory($directory, $empty=FALSE)
 function isConsoleApp() {
     return get_class(Yii::app())=='CConsoleApplication';
 }
+
+
+function replaceTags($startPoint, $endPoint, $newText, $source) {
+    return preg_replace('#('.preg_quote($startPoint).')(.*)('.preg_quote($endPoint).')#si', '$1'.$newText.'$3', $source);
+}
 ?>
