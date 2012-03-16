@@ -42,7 +42,11 @@ class ContentDetailViewBlock extends CWidget
 				$post_id=(int)$_GET['id'];				
 				if($post_id){
 					$post=Object::model()->findByPk($post_id);
-					if($post){						
+					if($post){
+						Yii::app()->controller->pageTitle=CHtml::encode($post->object_name);												
+						Yii::app()->controller->description=CHtml::encode($post->object_description);
+						Yii::app()->controller->keywords=CHtml::encode($post->object_keywords);	
+						Yii::app()->controller->change_title=true;   
 						$this->render(BlockRenderWidget::setRenderOutput($this),array('post'=>$post));	
 					} else {
 						throw new CHttpException('404',t('Page not found'));

@@ -95,7 +95,7 @@ class ArticleObject extends Object
 	
 	public static function buildLink($obj){						
 		if($obj->object_id)
-			return FRONT_SITE_URL."/article?id=".$obj->object_id."&slug=".$obj->object_slug;
+			return FRONT_SITE_URL."/post?id=".$obj->object_id."&slug=".$obj->object_slug;
 		else 
 			return null;
 	}

@@ -4,8 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="en" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="<?php if(isset($description)) { echo $description; } else echo $page->description; ?>" />
-    <meta name="keywords" content="<?php if(isset($keywords)) { echo $keywords; } else echo $page->keywords ?>" />
     <meta name="robots" content="<?php echo ($page->allow_index) ? 'index' : 'noindex' ;?>, <?php echo ($page->allow_follow) ? 'follow' : 'nofollow' ;?>" />
     <meta name="author" content="GxcSolutions" />
     <meta name="copyright" content="GxcSolutions" />
@@ -19,7 +17,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $layout_asset; ?>/css/custom.css" />
 
         
-    <title><?php if(isset($title)) { echo $title. " - ".settings()->get('general', 'site_name'); } else echo $page->title; ?></title>
+    <title><?php echo $this->pageTitle; ?></title>
         
     <?php    
         $cs=Yii::app()->clientScript;
