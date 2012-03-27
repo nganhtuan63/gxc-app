@@ -24,14 +24,14 @@ class ListViewBlock extends CWidget
 	public $display_type;	
 	
 	//Display types for the list view render 
-	const DISPLAY_TYPE_NEWS_HOMEPAGE=0;
-	const DISPLAY_TYPE_EVENT_HOMEPAGE=1;
-	const DISPLAY_TYPE_SLIDESHOW_HOMEPAGE=2;
+	const DISPLAY_TYPE_HOMEPAGE=0;
+	  	
+    const DISPLAY_TYPE_CATEGORY=1;
     
     
     public function setParams($params){
 	    $this->content_list=isset($params['content_list']) ? $params['content_list'] : null;
-		$this->display_type=isset($params['display_type']) ? $params['display_type'] : self::DISPLAY_TYPE_NEWS_HOMEPAGE;
+		$this->display_type=isset($params['display_type']) ? $params['display_type'] : self::DISPLAY_TYPE_HOMEPAGE;
     }
     public function run()
     {
@@ -74,9 +74,8 @@ class ListViewBlock extends CWidget
 	
 	public static function getDisplayTypes(){
         return array(
-            self::DISPLAY_TYPE_NEWS_HOMEPAGE=>t("Display for News in Homepage"),
-            self::DISPLAY_TYPE_EVENT_HOMEPAGE=>t("Display for Events in Homepage"),
-			self:: DISPLAY_TYPE_SLIDESHOW_HOMEPAGE=>t("Display as Slideshow in Homepage"));
+           self::DISPLAY_TYPE_HOMEPAGE=>t("Display in Homepage"),	  	
+           self::DISPLAY_TYPE_CATEGORY=>t("Display in Category page"));
     }
 	
 	public static function getContentList($content_list_id, $max=null, $pagination=null, $return_type=ConstantDefine::CONTENT_LIST_RETURN_ACTIVE_RECORD) {

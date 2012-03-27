@@ -484,6 +484,6 @@ function isConsoleApp() {
 
 
 function replaceTags($startPoint, $endPoint, $newText, $source) {
-    return preg_replace('#('.preg_quote($startPoint).')(.*)('.preg_quote($endPoint).')#si', '$1'.$newText.'$3', $source);
+    return preg_replace('#('.preg_quote($startPoint).')(.*)('.preg_quote($endPoint).')#si', '${1}'.$newText.'${3}', $source);
 }
 ?>
