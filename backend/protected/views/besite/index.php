@@ -1,3 +1,9 @@
+<?php
+if(YII_DEBUG)
+            $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, true);
+        else
+            $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, false);
+?>
 <?php $this->pageTitle=SITE_NAME; ?>
 <p><?php echo t('What do you want to do today?'); ?></p>
 <div>
@@ -18,8 +24,9 @@ echo $icon_asset.'/'.$type['icon']; ?>"><br />
 <a href="<?php echo bu().'/bepage/create'; ?>" class="shortcut-button">
 <span>
 <img alt="icon" src="<?php 
-                    
-echo $this->backend_asset.'/images/paper.png'; ?>"><br />
+		
+		                    
+echo $backend_asset.'/images/paper.png'; ?>"><br />
 <?php echo t('Create new Page');?>
 </span></a></li>
 
@@ -28,7 +35,7 @@ echo $this->backend_asset.'/images/paper.png'; ?>"><br />
 <a href="<?php echo bu().'/beresource/create'; ?>" class="shortcut-button">
 <span>
 <img alt="icon" src="<?php                     
-echo $this->backend_asset.'/images/upload_file.png'; ?>"><br />
+echo $backend_asset.'/images/upload_file.png'; ?>"><br />
 <?php echo t('Upload a File');?>
 </span></a></li>
 
