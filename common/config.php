@@ -50,6 +50,9 @@ return array(
         'cms.modules.translate.TranslateModule',
         'cms.modules.translate.controllers.*',
         'cms.modules.translate.models.*',
+        
+		//Yii Mail Extensions
+		'cms.extensions.yii-mail.*',
             
         //Import Rights Modules
         'cms.modules.rights.*',
@@ -75,6 +78,7 @@ return array(
             'class'=>'cms.modules.translate.TranslateModule',
     ),
         
+	
     //Modules Rights
     'rights'=>array(
             'class'=>'cms.modules.rights.RightsModule',
@@ -107,6 +111,12 @@ return array(
 				'allowAutoLogin'=>true,
 	            'loginUrl'=>FRONT_SITE_URL.'/sign-in',                        
 	            'stateKeyPrefix'=>'gxc_system_user_front',
+			),
+			
+			'mail' => array(
+        		'class' => 'cms.extensions.yii-mail.YiiMail',
+        		'transportType'=>'smtp',
+        		'viewPath' => '',        		
 			),
 	        
 	        //Auth Manager

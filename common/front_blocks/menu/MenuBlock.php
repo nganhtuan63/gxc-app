@@ -109,7 +109,7 @@ class MenuBlock extends CWidget
 				return $item->value; 
 				break;
 			case ConstantDefine::MENU_TYPE_PAGE:
-				$page = Page::model()->findByAttributes(array('name'=>$item->value));
+				$page = Page::model()->findByPk(array($item->value));
 				if ($page)
 					return FRONT_SITE_URL.'/'.$page->slug;
 				else {
