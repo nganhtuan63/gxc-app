@@ -3,15 +3,12 @@
 <head>	    
 	<?php 
         
-        if(isset($this->backend_asset)){
-            $backend_asset=$this->backend_asset;
-        } else {
-            if(YII_DEBUG)
-                $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, true);
-            else
-                 $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, false);
-        }
-        $this->renderPartial('/layouts/header',array('backend_asset'=>$backend_asset)); 
+        if(YII_DEBUG)
+            $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, true);
+        else
+            $backend_asset=Yii::app()->assetManager->publish(Yii::getPathOfAlias('cms.assets.backend'), false, -1, false);
+			
+        $this->renderPartial('application.views.layouts.header',array('backend_asset'=>$backend_asset));  
         
         ?>
 </head>
