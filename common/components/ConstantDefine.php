@@ -236,6 +236,37 @@ class ConstantDefine{
                  self::COMMENT_STATUS_DISCARDED=>t("Discarded")
                 );
     }
+    
+    /**
+     * Constant related to Newsletter
+     *
+     */
+    
+    const NEWSLETTER_STATUS_SENT = 1;
+    const NEWSLETTER_STATUS_DRAFT = 2;
+    
+    public static function getNewsletterStatus(){
+    	return array(
+    			self::NEWSLETTER_STATUS_SENT=>t("Sent"),
+    			self::NEWSLETTER_STATUS_DRAFT=>t("Draft"),
+    	);
+    }
+    
+    /**
+     * Constant related to NewsletterSubscription mail
+     *
+     */
+    
+    const MAIL_STATUS_ACTIVE = 1;
+    const MAIL_STATUS_INACTIVE = 2;
+    
+    public static function getMailStatus(){
+    	return array(
+    			self::MAIL_STATUS_ACTIVE=>t("Active"),
+    			self::MAIL_STATUS_INACTIVE=>t("Inactive"),
+    	);
+    }
+    
 	//end QNT
     
 }
