@@ -38,6 +38,7 @@ return array(
         'cms.models.object.*',
         'cms.models.resource.*',
         'cms.models.page.*',
+		'cms.models.newsletter.*',
             
         //Import Common Classes                    
         'common.components.*',                                      

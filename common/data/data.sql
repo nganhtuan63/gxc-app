@@ -752,3 +752,32 @@ CREATE TABLE `gxc_comment` (
 INSERT INTO `gxc_comment`
 VALUES ('7', 'Comment 1', 'Comment 1', '1', 'Nguyen Tuan Quyen', 'nguyen.tuan.quyen.it@gmail.com', '1328755632');
 
+
+--
+-- Table structure for table `gxc_newsletter_sendlist`
+--
+
+
+CREATE TABLE `gxc_newsletter_subscription` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(128) NOT NULL,
+  `email` varchar(128) NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_time` int(11) NOT NULL,
+  `updated_time` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `gxc_newsletter_sendlist `
+--
+
+CREATE TABLE `gxc_newsletter` (
+  `newsletter_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `topic` varchar(256) NOT NULL,
+  `content` longtext NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_time` int(11) NOT NULL,
+  `updated_time` int(11) NOT NULL,
+ PRIMARY KEY (`newsletter_id`)
+ ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;

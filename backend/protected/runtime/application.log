@@ -704,3 +704,1229 @@ Stack trace:
 #25 /Applications/MAMP/htdocs/gxc/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
 #26 /Applications/MAMP/htdocs/sample/backend/index-test.php(39): CWebApplication->run()
 REQUEST_URI=/sample/backend/beobject/create/type/article
+2012/03/10 01:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 01:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 01:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sdfd".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('sdfd')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/sdfd
+---
+2012/03/10 01:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sdfd".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('sdfd')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/sdfd
+---
+2012/03/10 01:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "becom".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becom')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/becom
+---
+2012/03/10 01:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "becom".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becom')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/becom
+---
+2012/03/10 01:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "becommen".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becommen')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/becommen
+---
+2012/03/10 01:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "becommen".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becommen')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/becommen
+---
+2012/03/10 01:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 01:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 01:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 01:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beobject')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/beobject
+---
+2012/03/10 08:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beaaa".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beaaa')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/beaaa
+---
+2012/03/10 08:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "beaaa".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('beaaa')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/beaaa
+---
+2012/03/10 08:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bebbb".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('bebbb')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/bebbb
+---
+2012/03/10 08:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bebbb".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('bebbb')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/Sample-Project/backend/bebbb
+---
+2012/03/10 08:54:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+---
+2012/03/10 08:54:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+---
+2012/03/10 08:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminn".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('adminn')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('adminn')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin...')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/adminn
+---
+2012/03/10 08:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminn".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('adminn')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('adminn')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin...')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/adminn
+---
+2012/03/10 08:59:42 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(40): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (40)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 08:59:42 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(40): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (40)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 09:00:48 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(57): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (57)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 09:00:48 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(57): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (57)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 09:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminn".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('adminn')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('adminn')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin...')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/adminn
+---
+2012/03/10 09:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminn".' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(271): CController->missingAction('adminn')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('adminn')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin...')
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/adminn
+---
+2012/03/10 09:02:25 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(58): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (58)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 09:02:25 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(58): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (58)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 11:36:39 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(57): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (57)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 11:36:39 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#2 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(57): BecommentController->render()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php (27)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (57)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+2012/03/10 11:37:47 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (59)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/10 11:37:47 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php (59)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php (39)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/10 11:38:29 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#1 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): BecommentController->widget()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): BecommentController->renderInternal()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#6 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): BecommentController->render()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (59)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (34)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (28)
+2012/03/10 11:38:29 [error] [php] Undefined variable: object_id (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#1 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): BecommentController->widget()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): BecommentController->renderInternal()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): BecommentController->renderFile()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): BecommentController->renderPartial()
+#6 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): BecommentController->render()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): BecommentController->runAction()
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): RightsFilter->filter()
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): BecommentController->filterRights()
+#13 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): BecommentController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): BecommentController->run()
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/becomment/admin
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (59)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (34)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php (28)
+2012/03/10 17:46:04 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/10 17:46:04 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/11 12:41:26 [error] [exception.CException] exception 'CException' with message 'The template file '/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/block/templates/default\info.ini' does not exist.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeModel.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/block/BlockCode.php(47): CCodeModel->render('/Applications/M...')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): BlockCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/block')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/Sample-Project/backend/gii/block
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/block
+---
+2012/03/11 12:41:26 [error] [exception.CException] exception 'CException' with message 'The template file '/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/block/templates/default\info.ini' does not exist.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeModel.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/block/BlockCode.php(47): CCodeModel->render('/Applications/M...')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): BlockCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/block')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/Sample-Project/backend/gii/block
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/block
+---
+2012/03/11 13:23:51 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (58)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (28)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_create.php (5)
+2012/03/11 13:23:51 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (58)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (28)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_create.php (5)
+2012/03/11 13:23:51 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (40)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (28)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_create.php (5)
+2012/03/11 13:23:51 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (40)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockCreateWidget.php (28)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_create.php (5)
+2012/03/11 13:24:06 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockUpdateWidget.php (56)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockUpdateWidget.php (25)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_update.php (5)
+2012/03/11 13:24:06 [warning] [application] Failed to set unsafe attribute "type" of "Block".
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockUpdateWidget.php (56)
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/page/BlockUpdateWidget.php (25)
+in /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/beblock/block_update.php (5)
+2012/03/11 21:12:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.object' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `object`.
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/11 21:12:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gxc_cms.object' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `object`.
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/11 21:57:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'The CSRF token could not be verified.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CHttpRequest.php:929
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(559): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(189): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(161): CApplication->onBeginRequest(Object(CEvent))
+#3 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#4 {main}
+REQUEST_URI=/Sample-Project/backend/gii/crud/code/id/1
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/crud
+---
+2012/03/11 21:57:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'The CSRF token could not be verified.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CHttpRequest.php:929
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(559): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(189): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(161): CApplication->onBeginRequest(Object(CEvent))
+#3 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#4 {main}
+REQUEST_URI=/Sample-Project/backend/gii/crud/code/id/1
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/crud
+---
+2012/03/12 21:09:50 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/12 21:09:50 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/12 21:14:49 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/12 21:14:49 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.object_id" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/db/schema/CDbCriteria.php(153): CComponent->__set('object_id', 6)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(105): CDbCriteria->__construct(Array)
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(153): CActiveDataProvider->setCriteria(Array)
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CActiveDataProvider.php(84): CComponent->__set('criteria', Array)
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(66): CActiveDataProvider->__construct('Comment', Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(34): CommentManageStatusWidget->doAdminSearch(0)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/widgets/object/CommentManageStatusWidget.php(28): CommentManageStatusWidget->renderContent()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(174): CommentManageStatusWidget->run()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/protected/views/becomment/comment_admin.php(27): CBaseController->widget('cmswidgets.obje...', Array)
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(127): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(783): CController->renderPartial('comment_admin', Array, true)
+#13 /Applications/MAMP/htdocs/Sample-Project/backend/protected/controllers/BecommentController.php(60): CController->render('comment_admin', Array)
+#14 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): BecommentController->actionAdmin()
+#15 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/modules/rights/components/RController.php(39): CFilter->filter(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(292): CFilterChain->run()
+#22 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#24 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('becomment/admin')
+#25 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#27 {main}
+REQUEST_URI=/Sample-Project/backend/becomment/admin?object_id=6
+HTTP_REFERER=http://localhost/Sample-Project/backend/beobject/view/6
+---
+2012/03/13 22:56:55 [error] [exception.CException] exception 'CException' with message 'Property "LayoutCode.encodedLayoutName" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(27): CComponent->__set('encodedLayoutNa...', 'example')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/layout')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/Sample-Project/backend/gii/layout
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/layout
+---
+2012/03/13 22:56:55 [error] [exception.CException] exception 'CException' with message 'Property "LayoutCode.encodedLayoutName" is not defined.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(27): CComponent->__set('encodedLayoutNa...', 'example')
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/layout')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/Sample-Project/backend/gii/layout
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/layout
+---
+2012/03/13 23:35:27 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:35:27 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:36:08 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:36:08 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:39:53 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:39:53 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:40:27 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:40:27 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:50:11 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:50:11 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:55:11 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:55:11 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:56:30 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:56:30 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:56:53 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:56:53 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:59:23 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/13 23:59:23 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:33)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (33)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:05:48 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:05:48 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:06:37 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:06:37 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/utils/CFileHelper.php:114)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(51): copyDirectory()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:20:17 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:51)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:20:17 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:51)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:20:51 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:51)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 00:20:51 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (/Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php:51)
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): LayoutGenerator->prepare()
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): LayoutGenerator->actionIndex()
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): LayoutGenerator->runAction()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): LayoutGenerator->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): LayoutGenerator->run()
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CWebApplication->run()
+REQUEST_URI=/Sample-Project/backend/gii/layout
+in /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php (51)
+in /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php (41)
+2012/03/14 01:10:40 [error] [exception.CException] exception 'CException' with message 'The template file '/' does not exist.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeModel.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(67): CCodeModel->render('/', NULL)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(59): LayoutCode->render('/')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/layout')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#12 {main}
+REQUEST_URI=/Sample-Project/backend/gii/layout
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/layout
+---
+2012/03/14 01:10:40 [error] [exception.CException] exception 'CException' with message 'The template file '/' does not exist.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeModel.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(67): CCodeModel->render('/', NULL)
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/cms1.0/gii/layout/LayoutCode.php(59): LayoutCode->render('/')
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(161): LayoutCode->prepare()
+#3 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#4 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#5 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(276): CController->run('')
+#9 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/layout')
+#10 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#12 {main}
+REQUEST_URI=/Sample-Project/backend/gii/layout
+HTTP_REFERER=http://localhost/Sample-Project/backend/gii/layout
+---
+2012/03/22 22:39:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'The CSRF token could not be verified.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CHttpRequest.php:929
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(559): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(189): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(161): CApplication->onBeginRequest(Object(CEvent))
+#3 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#4 {main}
+REQUEST_URI=/Sample-Project/backend/beobject/create/type/undefined
+---
+2012/03/22 22:39:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'The CSRF token could not be verified.' in /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/web/CHttpRequest.php:929
+Stack trace:
+#0 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CComponent.php(559): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(189): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /Applications/MAMP/htdocs/GXC-CMS/core/yii/framework/base/CApplication.php(161): CApplication->onBeginRequest(Object(CEvent))
+#3 /Applications/MAMP/htdocs/Sample-Project/backend/index-test.php(41): CApplication->run()
+#4 {main}
+REQUEST_URI=/Sample-Project/backend/beobject/create/type/undefined
+---

@@ -4,6 +4,9 @@ return CMap::mergeArray(
 	 require(COMMON_FOLDER.'/config.php'),
 	 array(
                 'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+	 			'import'=>array(
+	 				'cms.extensions.yii-mail.YiiMailMessage',
+	 			),
                 'name' => 'BACKEND ZONE',
                 'defaultController'=>'besite',                               
 				'components'=>array(                                                
@@ -33,6 +36,11 @@ return CMap::mergeArray(
 			                    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 							),
 						),
+						//QNT add
+						'mail'=>array(
+								'class'=>'cms.extensions.yii-mail.YiiMail',
+						),
+						//end QNT
 			            	
 				),
 				'modules'=>array(

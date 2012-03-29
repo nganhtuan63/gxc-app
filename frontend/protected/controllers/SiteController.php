@@ -71,5 +71,19 @@ class SiteController extends FeController
 				
 		}
 
+		/*//reserve for captcha module
+		public function actions()
+		{
+			return array(
+			// captcha action renders the CAPTCHA image displayed on the register page
+					'captcha'=>array(
+							'class'=>'CCaptchaAction',
+							'backColor'=>0xFFFFFF,
+					),
+			);
+		}
+		*/
+
+
 	
 }

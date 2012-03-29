@@ -9,4 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # otherwise forward it to index-test.php
-RewriteRule ^.*$ index.php [L]
+RewriteRule ^.*$ index-test.php [L]
