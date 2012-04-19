@@ -50,7 +50,7 @@ class LocalStorage
 			if(settings()->get('system','keep_file_name_upload')=='0'){				
 				$filename=gen_uuid();	
 			} else {
-				$filename=str_repeat(" ","-",$filename);
+				$filename=str_replace(" ","-",$filename) ;
 			}
 			
 			// folder for uploaded files
