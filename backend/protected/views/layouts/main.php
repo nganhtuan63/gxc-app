@@ -42,7 +42,7 @@
                                             echo $translate->dropdown();                                                                                       
                                              ?>
                                         &nbsp;</li>
-					<li><?php echo t('Welcome'); ?>, <strong><?php echo user()->getModel()->display_name; ?></strong>&nbsp;|&nbsp;</li>
+					<li><?php echo t('Welcome'); ?>, <strong><?php echo user()->getModel('display_name'); ?></strong>&nbsp;|&nbsp;</li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl?>/beuser/updatesettings"><?php echo t('Settings'); ?></a>&nbsp;|&nbsp;</li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl?>/beuser/changepass"><?php echo t('Change Password'); ?></a>&nbsp;|&nbsp;</li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl?>/besite/logout"><?php echo t('Sign out'); ?></a></li>
