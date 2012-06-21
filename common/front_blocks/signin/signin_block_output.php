@@ -1,7 +1,7 @@
 <div class="form-stacked">
     
     <div class="website-info">
-        <h1><?php echo t('Đăng nhập'); ?></h1>
+        <h1><?php echo t('Sign into your Account'); ?></h1>
     </div>
     <?php $this->render('cmswidgets.views.notification_frontend'); ?>
     
@@ -17,7 +17,7 @@
     <div class="clearfix">
         
      
-        <label for="username" class="labelBlur" style="display: inline; ">Email</label>
+        <label for="username" class="labelBlur" style="display: inline; "><?php echo t('Email'); ?></label>
        	   <div class="input">
         <?php echo $form->textField($model,'username',array('size'=>30,'class'=>'userform','autoComplete'=>'off')); ?>
         <?php echo $form->error($model,'username'); ?>
@@ -25,17 +25,16 @@
     </div>        
      
    <div class="clearfix">
-        <label for="password" class="labelBlur" style="display: inline; ">Password</label>
+        <label for="password" class="labelBlur" style="display: inline; "><?php echo t('Password'); ?></label>
         <div class="input">
         <?php echo $form->passwordField($model,'password',array('size'=>30,'class'=>'userform','autoComplete'=>'off')); ?>
         <?php echo $form->error($model,'password'); ?>
         </div>
     </div>
-    <p style="font:13px Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 5px; padding-left:5px"><a href="<?php echo bu();?>/forgot-password">Quên mật khẩu?</a>                             
+    <p style="font:13px Verdana; padding: 5px;"><a href="<?php echo bu();?>/forgot-password"><?php echo t('Forgot password?'); ?></a>                             
                     </p>
-    <div class="clearfix">
-         <?php echo $form->checkBox($model,'rememberMe',array('style'=>'float:left; margin-right:10px')); ?>
-         <label>Nhớ đăng nhập cho lần sau</label>
+    <div class="clearfix">     
+         <label><?php echo $form->checkBox($model,'rememberMe',array('style'=>'float:left; margin-right:10px')); ?> <?php echo t('Remember me on this computer') ?></label>
          <?php echo $form->error($model,'rememberMe'); ?>
     </div>
     <div class="actions">
@@ -43,29 +42,10 @@
     
     </div>
     
-    <p style="font:19px Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 10px">Chưa có tài khoản? 
-                            <a href="<?php echo FRONT_SITE_URL;;?>/sign-up">Đăng ký tại đây</a>.
+    <p style="font:15px Verdana; padding-top: 20px"><?php echo t("Don't have an account?"); ?> 
+                            <a href="<?php echo FRONT_SITE_URL;;?>/sign-up"><?php echo t('Register'); ?></a>.
                     </p>
     <?php $this->endWidget(); ?>
-      <script type="text/javascript">     
-        
-        $(".userform").each(function(){
-            if(($(this)).attr('value')!=''){             
-                $(this).prev().attr('style','display:none;');
-            }
-        });
-       $('.userform').bind('blur',function(){                               
-         if(($(this)).attr('value')==''){             
-                $(this).prev().attr('style','display:inline;');
-            } else {
-                $(this).prev().attr('style','display:none;');
-            }    		
-        });
-        
-        $('.userform').bind('focus',function(){                               
-            $(this).prev().attr('style','display:none;'); 		
-        }); 
-    </script>
-   
+  
 </div>
 

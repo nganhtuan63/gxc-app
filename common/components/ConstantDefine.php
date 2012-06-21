@@ -12,6 +12,11 @@
 class ConstantDefine{
     	
 	
+	const AMAZON_SES_ACCESS_KEY='';
+	const AMAZON_SES_SECRET_KEY='';
+	
+	const AMAZON_SES_EMAIL='';	
+	const SUPPORT_EMAIL='';
 	
 	
 	/**

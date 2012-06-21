@@ -54,7 +54,7 @@ class SignupBlock extends CWidget
                                 $new_user->scenario='create';
                                 //$new_user->username=$model->username;                                                               
                                 $new_user->username=$new_user->email=$model->email;                                                                                               
-                                $new_user->display_name=$model->display_name;
+                                $new_user->display_name=$model->username;
                                 $old_password=$new_user->password=$model->password;           
                                 
                                 //Create hash activation key
@@ -62,13 +62,12 @@ class SignupBlock extends CWidget
                                 if($new_user->save()){                                         
                                         	//We will send mail for the user
                                         	
-                                        	$ses = new SimpleEmailService(OsgConstantDefine::AMAZON_SES_ACCESS_KEY,OsgConstantDefine::AMAZON_SES_SECRET_KEY);
+                                        	$ses = new SimpleEmailService(ConstantDefine::AMAZON_SES_ACCESS_KEY,ConstantDefine::AMAZON_SES_SECRET_KEY);
 											$ses->enableVerifyHost(false);			
 											$m = new SimpleEmailServiceMessage();
 											$m->addTo($new_user->email);
-											$m->setFrom(OsgConstantDefine::AMAZON_SES_EMAIL);
-											$m->setSubject('['.SITE_NAME.'] Confirm your email at '.SITE_NAME_URL);
-											
+											$m->setFrom(ConstantDefine::AMAZON_SES_EMAIL);
+											$m->setSubject('['.SITE_NAME.'] Confirm your email at '.SITE_NAME_URL);											
 											$m_content='Hi '.$new_user->display_name.'<br /><br />';
 											$m_content.='Welcome to '.SITE_NAME.'! Please take a second to confirm '.$new_user->email.' as your email address by clicking this link: <br /><br />';
 											$link_content=FRONT_SITE_URL.'/user-activation/?key='.$new_user->user_activation_key.'&user_id='.$new_user->user_id;
@@ -83,7 +82,7 @@ class SignupBlock extends CWidget
                                             $login_form->username=$new_user->username;
                                             $login_form->password=$old_password;
                                             if($login_form->login()){
-                                                Yii::app()->controller->redirect(bu().'/dashboard');
+                                                Yii::app()->controller->redirect(bu());
                                             } else {
                                                 throw new CHttpException(503,t('Error while setting up your Account. Please try again later'));
                                             }

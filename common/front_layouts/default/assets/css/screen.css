@@ -62,26 +62,6 @@ html, body, div, span, applet, object, iframe,
 		border-spacing: 0;
 	}
 
-/* Typogridphy framework */
-
-
-h1,h2,h3,h4,h5,h6 {margin:0; padding:0;} 
-
-h1{color:#000;font-size:3em;margin-bottom:0.6em;font-style:italic;line-height:1.2em;}
-h2{color:#000;font-size:2em;margin-bottom:0.9em;line-height:0.9em;}
-h3{color:#000;font-size:1.5em;margin-bottom:1.2em;line-height:1.2em;font-variant:small-caps;}
-h4{color:#000;font-size:1.2em;margin-bottom:1.5em;line-height:1.5em;font-variant:small-caps;}
-h5{color:#000;font-size:1em;margin-bottom:1.8em;line-height:1.8em;font-variant:small-caps;}
-h6{color:#000;font-size:1em;margin-bottom:1.8em;line-height:1.8em;}
-
-p strong, p em{color:#000; }
-p a{color:#000;}
-p a:hover{text-decoration:none;}
-h1 a{color:#000;}
-h1 a:hover{text-decoration:none;}
-li a{color:#000;}
-li a:hover{text-decoration:none;}
-
 
 /* grid.css */
 .container {width:950px;margin:0 auto;}
@@ -252,10 +232,3 @@ input.text:focus, input.title:focus, textarea:focus, select:focus {border:1px so
 input.text, input.title {width:300px;padding:5px;}
 input.title {font-size:1.5em;}
 textarea {width:390px;height:250px;padding:5px;}
-.error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
-.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
-.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
-.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
-.error a {color:#8a1f11;}
-.notice a {color:#514721;}
-.success a {color:#264409;}

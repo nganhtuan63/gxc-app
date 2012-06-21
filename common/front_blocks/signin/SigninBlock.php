@@ -36,7 +36,11 @@ class SigninBlock extends CWidget
       
 	if(isset($this->block) && ($this->block!=null)){
             
-                $model=new UserLoginForm;
+		
+        if(isset($_GET['required'])){        	
+        	user()->setFlash('error',t('You need to sign in before continue'));
+        }
+        $model=new UserLoginForm;
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
 		{
@@ -50,8 +54,11 @@ class SigninBlock extends CWidget
                        
 			$model->attributes=$_POST['UserLoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				Yii::app()->controller->redirect(bu().'/dashboard');
+			if($model->validate() && $model->login()){
+				user()->setFlash('error',null,null);
+				Yii::app()->controller->redirect(user()->returnUrl);
+			}
+				
 		}              
             $this->render(BlockRenderWidget::setRenderOutput($this),array('model'=>$model));
 	} else {

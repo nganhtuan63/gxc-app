@@ -61,11 +61,11 @@ class RecoverPasswordBlock extends CWidget
 											$user->email_recover_key=$key;
 											if($user->save()){
 												
-													$ses = new SimpleEmailService(OsgConstantDefine::AMAZON_SES_ACCESS_KEY,OsgConstantDefine::AMAZON_SES_SECRET_KEY);
+													$ses = new SimpleEmailService(ConstantDefine::AMAZON_SES_ACCESS_KEY,ConstantDefine::AMAZON_SES_SECRET_KEY);
 													$ses->enableVerifyHost(false);			
 													$m = new SimpleEmailServiceMessage();
 													$m->addTo($user->email);
-													$m->setFrom(OsgConstantDefine::AMAZON_SES_EMAIL);
+													$m->setFrom(ConstantDefine::AMAZON_SES_EMAIL);
 													$m->setSubject('['.SITE_NAME.'] Password reset instructions');
 													
 													$m_content='Hi '.$user->display_name.'<br /><br />';
